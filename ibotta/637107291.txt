@@ -1,0 +1,285 @@
+travis_fold:start:worker_info[0K[33;1mWorker information[0m
+hostname: 64b8badf-2c8b-4ce2-ac58-2ab2fc05f601@1.worker-org-57dfd4cd5-xbzvq.gce-production-3
+version: v6.2.6 https://github.com/travis-ci/worker/tree/ba21bd30589fd152126e13df30e0cc78ccdf2837
+instance: travis-job-74a0642b-58db-4c25-8b46-97e864529114 travis-ci-sardonyx-xenial-1553530528-f909ac5 (via amqp)
+startup: 6.245781195s
+travis_fold:end:worker_info[0Ktravis_time:start:2b1067d0[0Ktravis_time:end:2b1067d0:start=1579036076055783061,finish=1579036076187336338,duration=131553277,event=no_world_writable_dirs[0Ktravis_time:start:3a0018f8[0Ktravis_time:end:3a0018f8:start=1579036076190240144,finish=1579036076196838981,duration=6598837,event=agent[0Ktravis_time:start:1f00bc19[0Ktravis_time:end:1f00bc19:start=1579036076199381185,finish=1579036076201355788,duration=1974603,event=check_unsupported[0Ktravis_time:start:011f9f3a[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+Build language: python
+Build group: stable
+Build dist: xenial
+Build id: 637107289
+Job id: 637107291
+Runtime kernel version: 4.15.0-1028-gcp
+travis-build version: 1c634e1df
+[34m[1mBuild image provisioning date and time[0m
+Mon Mar 25 16:43:24 UTC 2019
+[34m[1mOperating System Details[0m
+Distributor ID:	Ubuntu
+Description:	Ubuntu 16.04.6 LTS
+Release:	16.04
+Codename:	xenial
+[34m[1mSystemd Version[0m
+systemd 229
+[34m[1mCookbooks Version[0m
+42e42e4 https://github.com/travis-ci/travis-cookbooks/tree/42e42e4
+[34m[1mgit version[0m
+git version 2.21.0
+[34m[1mbash version[0m
+GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
+[34m[1mgcc version[0m
+gcc (Ubuntu 5.4.0-6ubuntu1~16.04.11) 5.4.0 20160609
+[34m[1mdocker version[0m
+Client:
+ Version:           18.06.0-ce
+ API version:       1.38
+ Go version:        go1.10.3
+ Git commit:        0ffa825
+ Built:             Wed Jul 18 19:11:02 2018
+ OS/Arch:           linux/amd64
+ Experimental:      false
+
+Server:
+ Engine:
+  Version:          18.06.0-ce
+  API version:      1.38 (minimum version 1.12)
+  Go version:       go1.10.3
+  Git commit:       0ffa825
+  Built:            Wed Jul 18 19:09:05 2018
+  OS/Arch:          linux/amd64
+  Experimental:     false
+[34m[1mclang version[0m
+clang version 7.0.0 (tags/RELEASE_700/final)
+[34m[1mjq version[0m
+jq-1.5
+[34m[1mbats version[0m
+Bats 0.4.0
+[34m[1mshellcheck version[0m
+0.6.0
+[34m[1mshfmt version[0m
+v2.6.3
+[34m[1mccache version[0m
+3.2.4
+[34m[1mcmake version[0m
+cmake version 3.12.4
+[34m[1mheroku version[0m
+heroku/7.22.7 linux-x64 node-v11.10.1
+[34m[1mimagemagick version[0m
+Version: ImageMagick 6.8.9-9 Q16 x86_64 2018-09-28 http://www.imagemagick.org
+[34m[1mmd5deep version[0m
+4.4
+[34m[1mmercurial version[0m
+version 4.8
+[34m[1mmysql version[0m
+mysql  Ver 14.14 Distrib 5.7.25, for Linux (x86_64) using  EditLine wrapper
+[34m[1mopenssl version[0m
+OpenSSL 1.0.2g  1 Mar 2016
+[34m[1mpacker version[0m
+1.3.3
+[34m[1mpostgresql client version[0m
+psql (PostgreSQL) 10.7 (Ubuntu 10.7-1.pgdg16.04+1)
+[34m[1mragel version[0m
+Ragel State Machine Compiler version 6.8 Feb 2013
+[34m[1msudo version[0m
+1.8.16
+[34m[1mgzip version[0m
+gzip 1.6
+[34m[1mzip version[0m
+Zip 3.0
+[34m[1mvim version[0m
+VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Nov 24 2016 16:44:48)
+[34m[1miptables version[0m
+iptables v1.6.0
+[34m[1mcurl version[0m
+curl 7.47.0 (x86_64-pc-linux-gnu) libcurl/7.47.0 GnuTLS/3.4.10 zlib/1.2.8 libidn/1.32 librtmp/2.3
+[34m[1mwget version[0m
+GNU Wget 1.17.1 built on linux-gnu.
+[34m[1mrsync version[0m
+rsync  version 3.1.1  protocol version 31
+[34m[1mgimme version[0m
+v1.5.3
+[34m[1mnvm version[0m
+0.34.0
+[34m[1mperlbrew version[0m
+/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.86
+[34m[1mphpenv version[0m
+rbenv 1.1.2
+[34m[1mrvm version[0m
+rvm 1.29.7 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+[34m[1mdefault ruby version[0m
+ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
+[34m[1mCouchDB version[0m
+couchdb 1.6.1
+[34m[1mElasticSearch version[0m
+5.5.0
+[34m[1mInstalled Firefox version[0m
+firefox 63.0.1
+[34m[1mMongoDB version[0m
+MongoDB 4.0.7
+[34m[1mPhantomJS version[0m
+2.1.1
+[34m[1mPre-installed PostgreSQL versions[0m
+9.4.21
+9.5.16
+9.6.12
+[34m[1mRedis version[0m
+redis-server 5.0.4
+[34m[1mPre-installed Go versions[0m
+1.11.1
+[34m[1mmvn version[0m
+Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T18:41:47Z)
+[34m[1mgradle version[0m
+Gradle 4.10.2!
+[34m[1mlein version[0m
+Leiningen 2.9.1 on Java 11.0.2 OpenJDK 64-Bit Server VM
+[34m[1mPre-installed Node.js versions[0m
+v10.15.3
+v11.0.0
+v4.9.1
+v6.17.0
+v8.12.0
+v8.15.1
+v8.9
+[34m[1mphpenv versions[0m
+  system
+  5.6
+  5.6.40
+  7.1
+  7.1.27
+  7.2
+* 7.2.15 (set by /home/travis/.phpenv/version)
+  hhvm
+  hhvm-stable
+[34m[1mcomposer --version[0m
+Composer version 1.8.4 2019-02-11 10:52:10
+[34m[1mPre-installed Ruby versions[0m
+ruby-2.3.8
+ruby-2.4.5
+ruby-2.5.3
+travis_fold:end:system_info[0K
+travis_time:end:011f9f3a:start=1579036076203944087,finish=1579036076209867494,duration=5923407,event=show_system_info[0Ktravis_time:start:282bb830[0Ktravis_time:end:282bb830:start=1579036076212667864,finish=1579036076224528715,duration=11860851,event=rm_riak_source[0Ktravis_time:start:0058dbe2[0Ktravis_time:end:0058dbe2:start=1579036076227675529,finish=1579036076232702719,duration=5027190,event=fix_rwky_redis[0Ktravis_time:start:0f91ad3c[0Ktravis_time:end:0f91ad3c:start=1579036076235463812,finish=1579036076653713164,duration=418249352,event=wait_for_network[0Ktravis_time:start:0300d080[0Ktravis_time:end:0300d080:start=1579036076656990902,finish=1579036076849964676,duration=192973774,event=update_apt_keys[0Ktravis_time:start:160fdaa8[0Ktravis_time:end:160fdaa8:start=1579036076852795505,finish=1579036076901728651,duration=48933146,event=fix_hhvm_source[0Ktravis_time:start:0411acf7[0Ktravis_time:end:0411acf7:start=1579036076904706459,finish=1579036076907095965,duration=2389506,event=update_mongo_arch[0Ktravis_time:start:0afdd6d8[0Ktravis_time:end:0afdd6d8:start=1579036076909764776,finish=1579036076948101882,duration=38337106,event=fix_sudo_enabled_trusty[0Ktravis_time:start:21954642[0Ktravis_time:end:21954642:start=1579036076951011116,finish=1579036076953026706,duration=2015590,event=update_glibc[0Ktravis_time:start:147185f4[0Ktravis_time:end:147185f4:start=1579036076955668168,finish=1579036076962528851,duration=6860683,event=clean_up_path[0Ktravis_time:start:00ee5d0e[0Ktravis_time:end:00ee5d0e:start=1579036076965155899,finish=1579036076972037604,duration=6881705,event=fix_resolv_conf[0Ktravis_time:start:080794e6[0Ktravis_time:end:080794e6:start=1579036076974745260,finish=1579036076982734500,duration=7989240,event=fix_etc_hosts[0Ktravis_time:start:01f49eec[0Ktravis_time:end:01f49eec:start=1579036076985427396,finish=1579036076994002777,duration=8575381,event=fix_mvn_settings_xml[0Ktravis_time:start:110b42c9[0Ktravis_time:end:110b42c9:start=1579036076996897784,finish=1579036077005539279,duration=8641495,event=no_ipv6_localhost[0Ktravis_time:start:0e6b91c3[0Ktravis_time:end:0e6b91c3:start=1579036077008361497,finish=1579036077010388794,duration=2027297,event=fix_etc_mavenrc[0Ktravis_time:start:0a2afd58[0Ktravis_time:end:0a2afd58:start=1579036077013221182,finish=1579036077015912262,duration=2691080,event=fix_wwdr_certificate[0Ktravis_time:start:05782e13[0Ktravis_time:end:05782e13:start=1579036077018739994,finish=1579036077041942442,duration=23202448,event=put_localhost_first[0Ktravis_time:start:29c073a7[0Ktravis_time:end:29c073a7:start=1579036077044979425,finish=1579036077047978300,duration=2998875,event=home_paths[0Ktravis_time:start:199e9606[0Ktravis_time:end:199e9606:start=1579036077050987623,finish=1579036077062567369,duration=11579746,event=disable_initramfs[0Ktravis_time:start:0fafe67c[0Ktravis_time:end:0fafe67c:start=1579036077065344748,finish=1579036077356892792,duration=291548044,event=disable_ssh_roaming[0Ktravis_time:start:06941280[0Ktravis_time:end:06941280:start=1579036077360005829,finish=1579036077362302982,duration=2297153,event=debug_tools[0Ktravis_time:start:385b3b42[0Ktravis_time:end:385b3b42:start=1579036077365191746,finish=1579036077368038018,duration=2846272,event=uninstall_oclint[0Ktravis_time:start:055fef1a[0Ktravis_time:end:055fef1a:start=1579036077371000013,finish=1579036077373855968,duration=2855955,event=rvm_use[0Ktravis_time:start:128594f6[0Ktravis_time:end:128594f6:start=1579036077376710836,finish=1579036077383812809,duration=7101973,event=rm_etc_boto_cfg[0Ktravis_time:start:03f40b96[0Ktravis_time:end:03f40b96:start=1579036077386514145,finish=1579036077389280251,duration=2766106,event=rm_oraclejdk8_symlink[0Ktravis_time:start:254ac1e6[0Ktravis_time:end:254ac1e6:start=1579036077391999623,finish=1579036077487648615,duration=95648992,event=enable_i386[0Ktravis_time:start:022996d0[0Ktravis_time:end:022996d0:start=1579036077491103879,finish=1579036077498664887,duration=7561008,event=update_rubygems[0Ktravis_time:start:18f63b10[0Ktravis_time:end:18f63b10:start=1579036077501664791,finish=1579036078256806833,duration=755142042,event=ensure_path_components[0Ktravis_time:start:00f4b6a8[0Ktravis_time:end:00f4b6a8:start=1579036078259738115,finish=1579036078261787438,duration=2049323,event=redefine_curl[0Ktravis_time:start:17f3cac3[0Ktravis_time:end:17f3cac3:start=1579036078264595283,finish=1579036078266604329,duration=2009046,event=nonblock_pipe[0Ktravis_time:start:0555cd26[0Ktravis_time:end:0555cd26:start=1579036078269371447,finish=1579036084298056934,duration=6028685487,event=apt_get_update[0Ktravis_time:start:03dd19c9[0Ktravis_time:end:03dd19c9:start=1579036084301181938,finish=1579036084303353963,duration=2172025,event=deprecate_xcode_64[0Ktravis_time:start:0e3f3d70[0Ktravis_time:end:0e3f3d70:start=1579036084305974523,finish=1579036086627585705,duration=2321611182,event=update_heroku[0Ktravis_time:start:14139070[0Ktravis_time:end:14139070:start=1579036086630716933,finish=1579036086632882225,duration=2165292,event=shell_session_update[0Ktravis_time:start:003088d8[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:003088d8:start=1579036086635682436,finish=1579036088734367720,duration=2098685284,event=set_docker_mtu[0Ktravis_time:start:031b4126[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:031b4126:start=1579036088737922874,finish=1579036088806062572,duration=68139698,event=resolvconf[0Ktravis_time:start:1b7a806e[0Ktravis_time:end:1b7a806e:start=1579036088809841090,finish=1579036088938864184,duration=129023094,event=maven_central_mirror[0Ktravis_time:start:0f5ea4c0[0Ktravis_time:end:0f5ea4c0:start=1579036088946913010,finish=1579036088949014698,duration=2101688,event=fix_ps4[0Ktravis_time:start:124dc45b[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:07840227[0K$ git clone --depth=50 --branch=version-compat https://github.com/Ibotta/sk-dist.git Ibotta/sk-dist
+Cloning into 'Ibotta/sk-dist'...
+remote: Enumerating objects: 51, done.[K
+remote: Counting objects:   1% (1/51)[Kremote: Counting objects:   3% (2/51)[Kremote: Counting objects:   5% (3/51)[Kremote: Counting objects:   7% (4/51)[Kremote: Counting objects:   9% (5/51)[Kremote: Counting objects:  11% (6/51)[Kremote: Counting objects:  13% (7/51)[Kremote: Counting objects:  15% (8/51)[Kremote: Counting objects:  17% (9/51)[Kremote: Counting objects:  19% (10/51)[Kremote: Counting objects:  21% (11/51)[Kremote: Counting objects:  23% (12/51)[Kremote: Counting objects:  25% (13/51)[Kremote: Counting objects:  27% (14/51)[Kremote: Counting objects:  29% (15/51)[Kremote: Counting objects:  31% (16/51)[Kremote: Counting objects:  33% (17/51)[Kremote: Counting objects:  35% (18/51)[Kremote: Counting objects:  37% (19/51)[Kremote: Counting objects:  39% (20/51)[Kremote: Counting objects:  41% (21/51)[Kremote: Counting objects:  43% (22/51)[Kremote: Counting objects:  45% (23/51)[Kremote: Counting objects:  47% (24/51)[Kremote: Counting objects:  49% (25/51)[Kremote: Counting objects:  50% (26/51)[Kremote: Counting objects:  52% (27/51)[Kremote: Counting objects:  54% (28/51)[Kremote: Counting objects:  56% (29/51)[Kremote: Counting objects:  58% (30/51)[Kremote: Counting objects:  60% (31/51)[Kremote: Counting objects:  62% (32/51)[Kremote: Counting objects:  64% (33/51)[Kremote: Counting objects:  66% (34/51)[Kremote: Counting objects:  68% (35/51)[Kremote: Counting objects:  70% (36/51)[Kremote: Counting objects:  72% (37/51)[Kremote: Counting objects:  74% (38/51)[Kremote: Counting objects:  76% (39/51)[Kremote: Counting objects:  78% (40/51)[Kremote: Counting objects:  80% (41/51)[Kremote: Counting objects:  82% (42/51)[Kremote: Counting objects:  84% (43/51)[Kremote: Counting objects:  86% (44/51)[Kremote: Counting objects:  88% (45/51)[Kremote: Counting objects:  90% (46/51)[Kremote: Counting objects:  92% (47/51)[Kremote: Counting objects:  94% (48/51)[Kremote: Counting objects:  96% (49/51)[Kremote: Counting objects:  98% (50/51)[Kremote: Counting objects: 100% (51/51)[Kremote: Counting objects: 100% (51/51), done.[K
+remote: Compressing objects:   2% (1/36)[Kremote: Compressing objects:   5% (2/36)[Kremote: Compressing objects:   8% (3/36)[Kremote: Compressing objects:  11% (4/36)[Kremote: Compressing objects:  13% (5/36)[Kremote: Compressing objects:  16% (6/36)[Kremote: Compressing objects:  19% (7/36)[Kremote: Compressing objects:  22% (8/36)[Kremote: Compressing objects:  25% (9/36)[Kremote: Compressing objects:  27% (10/36)[Kremote: Compressing objects:  30% (11/36)[Kremote: Compressing objects:  33% (12/36)[Kremote: Compressing objects:  36% (13/36)[Kremote: Compressing objects:  38% (14/36)[Kremote: Compressing objects:  41% (15/36)[Kremote: Compressing objects:  44% (16/36)[Kremote: Compressing objects:  47% (17/36)[Kremote: Compressing objects:  50% (18/36)[Kremote: Compressing objects:  52% (19/36)[Kremote: Compressing objects:  55% (20/36)[Kremote: Compressing objects:  58% (21/36)[Kremote: Compressing objects:  61% (22/36)[Kremote: Compressing objects:  63% (23/36)[Kremote: Compressing objects:  66% (24/36)[Kremote: Compressing objects:  69% (25/36)[Kremote: Compressing objects:  72% (26/36)[Kremote: Compressing objects:  75% (27/36)[Kremote: Compressing objects:  77% (28/36)[Kremote: Compressing objects:  80% (29/36)[Kremote: Compressing objects:  83% (30/36)[Kremote: Compressing objects:  86% (31/36)[Kremote: Compressing objects:  88% (32/36)[Kremote: Compressing objects:  91% (33/36)[Kremote: Compressing objects:  94% (34/36)[Kremote: Compressing objects:  97% (35/36)[Kremote: Compressing objects: 100% (36/36)[Kremote: Compressing objects: 100% (36/36), done.[K
+Receiving objects:   0% (1/320)   Receiving objects:   1% (4/320)   Receiving objects:   2% (7/320)   Receiving objects:   3% (10/320)   Receiving objects:   4% (13/320)   Receiving objects:   5% (16/320)   Receiving objects:   6% (20/320)   Receiving objects:   7% (23/320)   Receiving objects:   8% (26/320)   Receiving objects:   9% (29/320)   Receiving objects:  10% (32/320)   Receiving objects:  11% (36/320)   Receiving objects:  12% (39/320)   Receiving objects:  13% (42/320)   Receiving objects:  14% (45/320)   Receiving objects:  15% (48/320)   Receiving objects:  16% (52/320)   Receiving objects:  17% (55/320)   Receiving objects:  18% (58/320)   Receiving objects:  19% (61/320)   Receiving objects:  20% (64/320)   Receiving objects:  21% (68/320)   Receiving objects:  22% (71/320)   Receiving objects:  23% (74/320)   Receiving objects:  24% (77/320)   Receiving objects:  25% (80/320)   Receiving objects:  26% (84/320)   Receiving objects:  27% (87/320)   Receiving objects:  28% (90/320)   Receiving objects:  29% (93/320)   Receiving objects:  30% (96/320)   Receiving objects:  31% (100/320)   Receiving objects:  32% (103/320)   Receiving objects:  33% (106/320)   Receiving objects:  34% (109/320)   Receiving objects:  35% (112/320)   Receiving objects:  36% (116/320)   Receiving objects:  37% (119/320)   Receiving objects:  38% (122/320)   Receiving objects:  39% (125/320)   remote: Total 320 (delta 27), reused 34 (delta 15), pack-reused 269[K
+Receiving objects:  40% (128/320)   Receiving objects:  41% (132/320)   Receiving objects:  42% (135/320)   Receiving objects:  43% (138/320)   Receiving objects:  44% (141/320)   Receiving objects:  45% (144/320)   Receiving objects:  46% (148/320)   Receiving objects:  47% (151/320)   Receiving objects:  48% (154/320)   Receiving objects:  49% (157/320)   Receiving objects:  50% (160/320)   Receiving objects:  51% (164/320)   Receiving objects:  52% (167/320)   Receiving objects:  53% (170/320)   Receiving objects:  54% (173/320)   Receiving objects:  55% (176/320)   Receiving objects:  56% (180/320)   Receiving objects:  57% (183/320)   Receiving objects:  58% (186/320)   Receiving objects:  59% (189/320)   Receiving objects:  60% (192/320)   Receiving objects:  61% (196/320)   Receiving objects:  62% (199/320)   Receiving objects:  63% (202/320)   Receiving objects:  64% (205/320)   Receiving objects:  65% (208/320)   Receiving objects:  66% (212/320)   Receiving objects:  67% (215/320)   Receiving objects:  68% (218/320)   Receiving objects:  69% (221/320)   Receiving objects:  70% (224/320)   Receiving objects:  71% (228/320)   Receiving objects:  72% (231/320)   Receiving objects:  73% (234/320)   Receiving objects:  74% (237/320)   Receiving objects:  75% (240/320)   Receiving objects:  76% (244/320)   Receiving objects:  77% (247/320)   Receiving objects:  78% (250/320)   Receiving objects:  79% (253/320)   Receiving objects:  80% (256/320)   Receiving objects:  81% (260/320)   Receiving objects:  82% (263/320)   Receiving objects:  83% (266/320)   Receiving objects:  84% (269/320)   Receiving objects:  85% (272/320)   Receiving objects:  86% (276/320)   Receiving objects:  87% (279/320)   Receiving objects:  88% (282/320)   Receiving objects:  89% (285/320)   Receiving objects:  90% (288/320)   Receiving objects:  91% (292/320)   Receiving objects:  92% (295/320)   Receiving objects:  93% (298/320)   Receiving objects:  94% (301/320)   Receiving objects:  95% (304/320)   Receiving objects:  96% (308/320)   Receiving objects:  97% (311/320)   Receiving objects:  98% (314/320)   Receiving objects:  99% (317/320)   Receiving objects: 100% (320/320)   Receiving objects: 100% (320/320), 259.82 KiB | 8.66 MiB/s, done.
+Resolving deltas:   0% (0/159)   Resolving deltas:   6% (11/159)   Resolving deltas:   8% (14/159)   Resolving deltas:   9% (15/159)   Resolving deltas:  10% (16/159)   Resolving deltas:  11% (19/159)   Resolving deltas:  18% (29/159)   Resolving deltas:  20% (33/159)   Resolving deltas:  21% (34/159)   Resolving deltas:  22% (36/159)   Resolving deltas:  23% (37/159)   Resolving deltas:  25% (41/159)   Resolving deltas:  26% (42/159)   Resolving deltas:  32% (51/159)   Resolving deltas:  34% (55/159)   Resolving deltas:  35% (57/159)   Resolving deltas:  36% (58/159)   Resolving deltas:  37% (59/159)   Resolving deltas:  38% (62/159)   Resolving deltas:  40% (65/159)   Resolving deltas:  42% (67/159)   Resolving deltas:  47% (76/159)   Resolving deltas:  48% (77/159)   Resolving deltas:  50% (81/159)   Resolving deltas:  51% (82/159)   Resolving deltas:  52% (83/159)   Resolving deltas:  53% (85/159)   Resolving deltas:  54% (86/159)   Resolving deltas:  55% (88/159)   Resolving deltas:  56% (90/159)   Resolving deltas:  57% (91/159)   Resolving deltas:  59% (94/159)   Resolving deltas:  60% (96/159)   Resolving deltas:  61% (97/159)   Resolving deltas:  62% (99/159)   Resolving deltas:  66% (105/159)   Resolving deltas:  69% (111/159)   Resolving deltas:  73% (117/159)   Resolving deltas:  74% (118/159)   Resolving deltas:  83% (133/159)   Resolving deltas:  84% (134/159)   Resolving deltas:  94% (151/159)   Resolving deltas:  95% (152/159)   Resolving deltas:  96% (154/159)   Resolving deltas: 100% (159/159)   Resolving deltas: 100% (159/159), done.
+travis_time:end:07840227:start=1579036088954416363,finish=1579036089487747130,duration=533330767,event=checkout[0K$ cd Ibotta/sk-dist
+$ git checkout -qf 5c485d1be4216a176626490770907a6fb70bb6f4
+travis_fold:end:git.checkout[0K
+travis_time:end:07840227:start=1579036088954416363,finish=1579036089497162457,duration=542746094,event=checkout[0Ktravis_time:start:10474de3[0K
+[33;1mSetting environment variables from .travis.yml[0m
+$ export TEST_SUITE=spark_2_3
+
+travis_time:end:10474de3:start=1579036089500280162,finish=1579036089506436403,duration=6156241,event=env[0Ktravis_time:start:2bc3a2e6[0K$ source ~/virtualenv/python3.6/bin/activate
+travis_time:end:2bc3a2e6:start=1579036089509971965,finish=1579036089514918536,duration=4946571,event=[0K$ python --version
+Python 3.6.7
+$ pip --version
+pip 19.0.3 from /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/pip (python 3.6)
+Could not locate requirements.txt. Override the install: key in your .travis.yml to install dependencies.
+travis_time:start:0b498098[0K$ build_tools/$TEST_SUITE.sh
+Obtaining file:///home/travis/build/Ibotta/sk-dist
+Collecting scikit-learn>=0.20.0 (from sk-dist==0.1.8)
+[?25l  Downloading https://files.pythonhosted.org/packages/d1/48/e9fa9e252abcd1447eff6f9257636af31758a6e46fd5ce5d3c879f6907cb/scikit_learn-0.22.1-cp36-cp36m-manylinux1_x86_64.whl (7.0MB)
+
+[?25hCollecting pandas>=0.17.0 (from sk-dist==0.1.8)
+[?25l  Downloading https://files.pythonhosted.org/packages/52/3f/f6a428599e0d4497e1595030965b5ba455fd8ade6e977e3c819973c4b41d/pandas-0.25.3-cp36-cp36m-manylinux1_x86_64.whl (10.4MB)
+
+[?25hRequirement already satisfied: numpy in /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages (from sk-dist==0.1.8) (1.16.2)
+Collecting scipy (from sk-dist==0.1.8)
+[?25l  Downloading https://files.pythonhosted.org/packages/dc/29/162476fd44203116e7980cfbd9352eef9db37c49445d1fec35509022f6aa/scipy-1.4.1-cp36-cp36m-manylinux1_x86_64.whl (26.1MB)
+
+[?25hCollecting joblib (from sk-dist==0.1.8)
+[?25l  Downloading https://files.pythonhosted.org/packages/28/5c/cf6a2b65a321c4a209efcdf64c2689efae2cb62661f8f6f4bb28547cf1bf/joblib-0.14.1-py2.py3-none-any.whl (294kB)
+
+[?25hCollecting xgboost>=0.4 (from sk-dist==0.1.8)
+[?25l  Downloading https://files.pythonhosted.org/packages/c1/24/5fe7237b2eca13ee0cfb100bec8c23f4e69ce9df852a64b0493d49dae4e0/xgboost-0.90-py2.py3-none-manylinux1_x86_64.whl (142.8MB)
+
+[?25hCollecting pyarrow>=0.8.0 (from sk-dist==0.1.8)
+[?25l  Downloading https://files.pythonhosted.org/packages/6c/32/ce1926f05679ea5448fd3b98fbd9419d8c7a65f87d1a12ee5fb9577e3a8e/pyarrow-0.15.1-cp36-cp36m-manylinux2010_x86_64.whl (59.2MB)
+
+[?25hCollecting pyspark>=2.4.4 (from sk-dist==0.1.8)
+[?25l  Downloading https://files.pythonhosted.org/packages/87/21/f05c186f4ddb01d15d0ddc36ef4b7e3cedbeb6412274a41f26b55a650ee5/pyspark-2.4.4.tar.gz (215.7MB)
+
+[?25hCollecting pytest-spark>=0.4.5 (from sk-dist==0.1.8)
+  Downloading https://files.pythonhosted.org/packages/9f/a9/8b4bc6c416bc8875b56e3bd290ce68dc65ad03e7cbfad878477f694525ca/pytest_spark-0.5.2-py3-none-any.whl
+Collecting pytz>=2017.2 (from pandas>=0.17.0->sk-dist==0.1.8)
+[?25l  Downloading https://files.pythonhosted.org/packages/e7/f9/f0b53f88060247251bf481fa6ea62cd0d25bf1b11a87888e53ce5b7c8ad2/pytz-2019.3-py2.py3-none-any.whl (509kB)
+
+[?25hCollecting python-dateutil>=2.6.1 (from pandas>=0.17.0->sk-dist==0.1.8)
+[?25l  Downloading https://files.pythonhosted.org/packages/d4/70/d60450c3dd48ef87586924207ae8907090de0b306af2bce5d134d78615cb/python_dateutil-2.8.1-py2.py3-none-any.whl (227kB)
+
+[?25hRequirement already satisfied: six>=1.0.0 in /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages (from pyarrow>=0.8.0->sk-dist==0.1.8) (1.11.0)
+Collecting py4j==0.10.7 (from pyspark>=2.4.4->sk-dist==0.1.8)
+[?25l  Downloading https://files.pythonhosted.org/packages/e3/53/c737818eb9a7dc32a7cd4f1396e787bd94200c3997c72c1dbe028587bd76/py4j-0.10.7-py2.py3-none-any.whl (197kB)
+
+[?25hCollecting findspark (from pytest-spark>=0.4.5->sk-dist==0.1.8)
+  Downloading https://files.pythonhosted.org/packages/b1/c8/e6e1f6a303ae5122dc28d131b5a67c5eb87cbf8f7ac5b9f87764ea1b1e1e/findspark-1.3.0-py2.py3-none-any.whl
+Requirement already satisfied: pytest in /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages (from pytest-spark>=0.4.5->sk-dist==0.1.8) (4.3.1)
+Requirement already satisfied: pluggy>=0.7 in /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages (from pytest->pytest-spark>=0.4.5->sk-dist==0.1.8) (0.8.0)
+Requirement already satisfied: py>=1.5.0 in /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages (from pytest->pytest-spark>=0.4.5->sk-dist==0.1.8) (1.7.0)
+Requirement already satisfied: setuptools in /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages (from pytest->pytest-spark>=0.4.5->sk-dist==0.1.8) (40.8.0)
+Requirement already satisfied: attrs>=17.4.0 in /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages (from pytest->pytest-spark>=0.4.5->sk-dist==0.1.8) (18.2.0)
+Requirement already satisfied: atomicwrites>=1.0 in /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages (from pytest->pytest-spark>=0.4.5->sk-dist==0.1.8) (1.2.1)
+Requirement already satisfied: more-itertools>=4.0.0; python_version > "2.7" in /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages (from pytest->pytest-spark>=0.4.5->sk-dist==0.1.8) (4.3.0)
+Building wheels for collected packages: pyspark
+  Building wheel for pyspark (setup.py) ... [?25l- \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | done
+[?25h  Stored in directory: /home/travis/.cache/pip/wheels/ab/09/4d/0d184230058e654eb1b04467dbc1292f00eaa186544604b471
+Successfully built pyspark
+Installing collected packages: scipy, joblib, scikit-learn, pytz, python-dateutil, pandas, xgboost, pyarrow, py4j, pyspark, findspark, pytest-spark, sk-dist
+  Running setup.py develop for sk-dist
+Successfully installed findspark-1.3.0 joblib-0.14.1 pandas-0.25.3 py4j-0.10.7 pyarrow-0.15.1 pyspark-2.4.4 pytest-spark-0.5.2 python-dateutil-2.8.1 pytz-2019.3 scikit-learn-0.22.1 scipy-1.4.1 sk-dist xgboost-0.90
+No broken requirements found.
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.6.7, pytest-4.3.1, py-1.7.0, pluggy-0.8.0
+spark version -- Spark 2.3.4 built for Hadoop 2.7.3 | Build flags: -B -Pmesos -Pyarn -Pkubernetes -Psparkr -Pkafka-0-8 -Pflume -Pscala-2.11 -Phadoop-2.7 -Phive -Phive-thriftserver -DzincPort=3036
+rootdir: /home/travis/build/Ibotta/sk-dist, inifile:
+plugins: spark-0.5.2
+[1mcollecting ... [0m[1mcollecting 2 items                                                             [0m[1mcollected 63 items                                                             [0m
+
+skdist/distribute/tests/test_base.py [32m.[0m[32m.[0m[36m                                  [  3%][0m
+skdist/distribute/tests/test_defaults.py [32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[36m                       [ 17%][0m
+skdist/distribute/tests/test_eliminate.py [32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[36m                          [ 25%][0m
+skdist/distribute/tests/test_encoder.py [32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[36m                            [ 33%][0m
+skdist/distribute/tests/test_ensemble.py [32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[36m                          [ 42%][0m
+skdist/distribute/tests/test_init.py [32m.[0m[36m                                   [ 44%][0m
+skdist/distribute/tests/test_multiclass.py [32m.[0m[32m.[0m[32m.[0m[36m                           [ 49%][0m
+skdist/distribute/tests/test_predict.py [32m.[0m[36m                                [ 50%][0m
+skdist/distribute/tests/test_search.py [32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[36m                             [ 58%][0m
+skdist/tests/test_init.py [32m.[0m[36m                                              [ 60%][0m
+skdist/tests/test_postprocessing.py [32m.[0m[32m.[0m[32m.[0m[32m.[0m[36m                                 [ 66%][0m
+skdist/tests/test_preprocessing.py [32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[36m                        [ 88%][0m
+skdist/tests/test_spark.py [32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[36m                                       [100%][0m
+
+[33m=============================== warnings summary ===============================[0m
+/home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/sklearn/utils/deprecation.py:144
+  /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/sklearn/utils/deprecation.py:144: FutureWarning: The sklearn.ensemble.forest module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.ensemble. Anything that cannot be imported from sklearn.ensemble is now part of the private API.
+    warnings.warn(message, FutureWarning)
+
+/opt/spark-2.3.4-bin-hadoop2.7/python/lib/py4j-0.10.7-src.zip/py4j/java_gateway.py:2020
+/opt/spark-2.3.4-bin-hadoop2.7/python/lib/py4j-0.10.7-src.zip/py4j/java_gateway.py:2020
+  /opt/spark-2.3.4-bin-hadoop2.7/python/lib/py4j-0.10.7-src.zip/py4j/java_gateway.py:2020: DeprecationWarning: invalid escape sequence \*
+
+/opt/spark-2.3.4-bin-hadoop2.7/python/pyspark/sql/readwriter.py:427
+  /opt/spark-2.3.4-bin-hadoop2.7/python/pyspark/sql/readwriter.py:427: DeprecationWarning: invalid escape sequence \`
+    """
+
+/opt/spark-2.3.4-bin-hadoop2.7/python/pyspark/sql/readwriter.py:877
+  /opt/spark-2.3.4-bin-hadoop2.7/python/pyspark/sql/readwriter.py:877: DeprecationWarning: invalid escape sequence \`
+    """
+
+/opt/spark-2.3.4-bin-hadoop2.7/python/pyspark/sql/streaming.py:653
+  /opt/spark-2.3.4-bin-hadoop2.7/python/pyspark/sql/streaming.py:653: DeprecationWarning: invalid escape sequence \`
+    """
+
+/opt/spark-2.3.4-bin-hadoop2.7/python/pyspark/sql/functions.py:1633
+  /opt/spark-2.3.4-bin-hadoop2.7/python/pyspark/sql/functions.py:1633: DeprecationWarning: invalid escape sequence \d
+    """
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+[33m[1m==================== 63 passed, 7 warnings in 45.46 seconds ====================[0m
+travis_time:end:0b498098:start=1579036090272448507,finish=1579036211394487007,duration=121122038500,event=script[0K[32;1mThe command "build_tools/$TEST_SUITE.sh" exited with 0.[0m
+
+
+Done. Your build exited with 0.

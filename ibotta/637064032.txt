@@ -1,0 +1,567 @@
+travis_fold:start:worker_info[0K[33;1mWorker information[0m
+hostname: 21a54092-28c3-41ed-9ddd-746b317ae712@1.worker-org-85d846cc5-hrf2d.gce-production-1
+version: v6.2.6 https://github.com/travis-ci/worker/tree/ba21bd30589fd152126e13df30e0cc78ccdf2837
+instance: travis-job-d2132b61-6785-47b6-9645-3b7c498174a6 travis-ci-sardonyx-xenial-1553530528-f909ac5 (via amqp)
+startup: 6.270880862s
+travis_fold:end:worker_info[0Ktravis_time:start:0d647f80[0Ktravis_time:end:0d647f80:start=1579030376095917792,finish=1579030376261740029,duration=165822237,event=no_world_writable_dirs[0Ktravis_time:start:0ab3958c[0Ktravis_time:end:0ab3958c:start=1579030376265511386,finish=1579030376273334372,duration=7822986,event=agent[0Ktravis_time:start:193e95cc[0Ktravis_time:end:193e95cc:start=1579030376276693336,finish=1579030376279458224,duration=2764888,event=check_unsupported[0Ktravis_time:start:09c15d8c[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+Build language: python
+Build group: stable
+Build dist: xenial
+Build id: 637064026
+Job id: 637064032
+Runtime kernel version: 4.15.0-1028-gcp
+travis-build version: 1c634e1df
+[34m[1mBuild image provisioning date and time[0m
+Mon Mar 25 16:43:24 UTC 2019
+[34m[1mOperating System Details[0m
+Distributor ID:	Ubuntu
+Description:	Ubuntu 16.04.6 LTS
+Release:	16.04
+Codename:	xenial
+[34m[1mSystemd Version[0m
+systemd 229
+[34m[1mCookbooks Version[0m
+42e42e4 https://github.com/travis-ci/travis-cookbooks/tree/42e42e4
+[34m[1mgit version[0m
+git version 2.21.0
+[34m[1mbash version[0m
+GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
+[34m[1mgcc version[0m
+gcc (Ubuntu 5.4.0-6ubuntu1~16.04.11) 5.4.0 20160609
+[34m[1mdocker version[0m
+Client:
+ Version:           18.06.0-ce
+ API version:       1.38
+ Go version:        go1.10.3
+ Git commit:        0ffa825
+ Built:             Wed Jul 18 19:11:02 2018
+ OS/Arch:           linux/amd64
+ Experimental:      false
+
+Server:
+ Engine:
+  Version:          18.06.0-ce
+  API version:      1.38 (minimum version 1.12)
+  Go version:       go1.10.3
+  Git commit:       0ffa825
+  Built:            Wed Jul 18 19:09:05 2018
+  OS/Arch:          linux/amd64
+  Experimental:     false
+[34m[1mclang version[0m
+clang version 7.0.0 (tags/RELEASE_700/final)
+[34m[1mjq version[0m
+jq-1.5
+[34m[1mbats version[0m
+Bats 0.4.0
+[34m[1mshellcheck version[0m
+0.6.0
+[34m[1mshfmt version[0m
+v2.6.3
+[34m[1mccache version[0m
+3.2.4
+[34m[1mcmake version[0m
+cmake version 3.12.4
+[34m[1mheroku version[0m
+heroku/7.22.7 linux-x64 node-v11.10.1
+[34m[1mimagemagick version[0m
+Version: ImageMagick 6.8.9-9 Q16 x86_64 2018-09-28 http://www.imagemagick.org
+[34m[1mmd5deep version[0m
+4.4
+[34m[1mmercurial version[0m
+version 4.8
+[34m[1mmysql version[0m
+mysql  Ver 14.14 Distrib 5.7.25, for Linux (x86_64) using  EditLine wrapper
+[34m[1mopenssl version[0m
+OpenSSL 1.0.2g  1 Mar 2016
+[34m[1mpacker version[0m
+1.3.3
+[34m[1mpostgresql client version[0m
+psql (PostgreSQL) 10.7 (Ubuntu 10.7-1.pgdg16.04+1)
+[34m[1mragel version[0m
+Ragel State Machine Compiler version 6.8 Feb 2013
+[34m[1msudo version[0m
+1.8.16
+[34m[1mgzip version[0m
+gzip 1.6
+[34m[1mzip version[0m
+Zip 3.0
+[34m[1mvim version[0m
+VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Nov 24 2016 16:44:48)
+[34m[1miptables version[0m
+iptables v1.6.0
+[34m[1mcurl version[0m
+curl 7.47.0 (x86_64-pc-linux-gnu) libcurl/7.47.0 GnuTLS/3.4.10 zlib/1.2.8 libidn/1.32 librtmp/2.3
+[34m[1mwget version[0m
+GNU Wget 1.17.1 built on linux-gnu.
+[34m[1mrsync version[0m
+rsync  version 3.1.1  protocol version 31
+[34m[1mgimme version[0m
+v1.5.3
+[34m[1mnvm version[0m
+0.34.0
+[34m[1mperlbrew version[0m
+/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.86
+[34m[1mphpenv version[0m
+rbenv 1.1.2
+[34m[1mrvm version[0m
+rvm 1.29.7 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+[34m[1mdefault ruby version[0m
+ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
+[34m[1mCouchDB version[0m
+couchdb 1.6.1
+[34m[1mElasticSearch version[0m
+5.5.0
+[34m[1mInstalled Firefox version[0m
+firefox 63.0.1
+[34m[1mMongoDB version[0m
+MongoDB 4.0.7
+[34m[1mPhantomJS version[0m
+2.1.1
+[34m[1mPre-installed PostgreSQL versions[0m
+9.4.21
+9.5.16
+9.6.12
+[34m[1mRedis version[0m
+redis-server 5.0.4
+[34m[1mPre-installed Go versions[0m
+1.11.1
+[34m[1mmvn version[0m
+Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T18:41:47Z)
+[34m[1mgradle version[0m
+Gradle 4.10.2!
+[34m[1mlein version[0m
+Leiningen 2.9.1 on Java 11.0.2 OpenJDK 64-Bit Server VM
+[34m[1mPre-installed Node.js versions[0m
+v10.15.3
+v11.0.0
+v4.9.1
+v6.17.0
+v8.12.0
+v8.15.1
+v8.9
+[34m[1mphpenv versions[0m
+  system
+  5.6
+  5.6.40
+  7.1
+  7.1.27
+  7.2
+* 7.2.15 (set by /home/travis/.phpenv/version)
+  hhvm
+  hhvm-stable
+[34m[1mcomposer --version[0m
+Composer version 1.8.4 2019-02-11 10:52:10
+[34m[1mPre-installed Ruby versions[0m
+ruby-2.3.8
+ruby-2.4.5
+ruby-2.5.3
+travis_fold:end:system_info[0K
+travis_time:end:09c15d8c:start=1579030376282925251,finish=1579030376291466975,duration=8541724,event=show_system_info[0Ktravis_time:start:03bb71ae[0Ktravis_time:end:03bb71ae:start=1579030376295210783,finish=1579030376311302611,duration=16091828,event=rm_riak_source[0Ktravis_time:start:387bf6da[0Ktravis_time:end:387bf6da:start=1579030376315281013,finish=1579030376326159947,duration=10878934,event=fix_rwky_redis[0Ktravis_time:start:38feb9a8[0Ktravis_time:end:38feb9a8:start=1579030376331214651,finish=1579030378887232629,duration=2556017978,event=wait_for_network[0Ktravis_time:start:0e54b092[0Ktravis_time:end:0e54b092:start=1579030378890840204,finish=1579030379087441097,duration=196600893,event=update_apt_keys[0Ktravis_time:start:264ee8ac[0Ktravis_time:end:264ee8ac:start=1579030379090507732,finish=1579030379141710445,duration=51202713,event=fix_hhvm_source[0Ktravis_time:start:0abc5ffa[0Ktravis_time:end:0abc5ffa:start=1579030379144840562,finish=1579030379147358954,duration=2518392,event=update_mongo_arch[0Ktravis_time:start:03296765[0Ktravis_time:end:03296765:start=1579030379150095837,finish=1579030379189613676,duration=39517839,event=fix_sudo_enabled_trusty[0Ktravis_time:start:12657c94[0Ktravis_time:end:12657c94:start=1579030379192871451,finish=1579030379195138041,duration=2266590,event=update_glibc[0Ktravis_time:start:0ecb5836[0Ktravis_time:end:0ecb5836:start=1579030379197947036,finish=1579030379205404876,duration=7457840,event=clean_up_path[0Ktravis_time:start:08a765a2[0Ktravis_time:end:08a765a2:start=1579030379208216951,finish=1579030379215711408,duration=7494457,event=fix_resolv_conf[0Ktravis_time:start:0f15f5a4[0Ktravis_time:end:0f15f5a4:start=1579030379218482426,finish=1579030379227276174,duration=8793748,event=fix_etc_hosts[0Ktravis_time:start:1de4e858[0Ktravis_time:end:1de4e858:start=1579030379230216381,finish=1579030379237932066,duration=7715685,event=fix_mvn_settings_xml[0Ktravis_time:start:07c5e1e8[0Ktravis_time:end:07c5e1e8:start=1579030379240980554,finish=1579030379249702775,duration=8722221,event=no_ipv6_localhost[0Ktravis_time:start:006f78d0[0Ktravis_time:end:006f78d0:start=1579030379252641194,finish=1579030379254880755,duration=2239561,event=fix_etc_mavenrc[0Ktravis_time:start:00f029c7[0Ktravis_time:end:00f029c7:start=1579030379257747449,finish=1579030379260805416,duration=3057967,event=fix_wwdr_certificate[0Ktravis_time:start:1226cce7[0Ktravis_time:end:1226cce7:start=1579030379263713044,finish=1579030379287188651,duration=23475607,event=put_localhost_first[0Ktravis_time:start:06e0cdc4[0Ktravis_time:end:06e0cdc4:start=1579030379290202832,finish=1579030379292983530,duration=2780698,event=home_paths[0Ktravis_time:start:06f6b958[0Ktravis_time:end:06f6b958:start=1579030379295750964,finish=1579030379306861266,duration=11110302,event=disable_initramfs[0Ktravis_time:start:27d6d220[0Ktravis_time:end:27d6d220:start=1579030379310132670,finish=1579030379530537620,duration=220404950,event=disable_ssh_roaming[0Ktravis_time:start:17d2c2bc[0Ktravis_time:end:17d2c2bc:start=1579030379533457764,finish=1579030379535482470,duration=2024706,event=debug_tools[0Ktravis_time:start:0382702e[0Ktravis_time:end:0382702e:start=1579030379538308372,finish=1579030379541081437,duration=2773065,event=uninstall_oclint[0Ktravis_time:start:0073b5a0[0Ktravis_time:end:0073b5a0:start=1579030379543818379,finish=1579030379546487354,duration=2668975,event=rvm_use[0Ktravis_time:start:00940765[0Ktravis_time:end:00940765:start=1579030379549182728,finish=1579030379556248312,duration=7065584,event=rm_etc_boto_cfg[0Ktravis_time:start:013d562c[0Ktravis_time:end:013d562c:start=1579030379559045180,finish=1579030379561566647,duration=2521467,event=rm_oraclejdk8_symlink[0Ktravis_time:start:1592ec5c[0Ktravis_time:end:1592ec5c:start=1579030379564416069,finish=1579030379657247094,duration=92831025,event=enable_i386[0Ktravis_time:start:2c194cd3[0Ktravis_time:end:2c194cd3:start=1579030379660916652,finish=1579030379666808861,duration=5892209,event=update_rubygems[0Ktravis_time:start:0ddcdac2[0Ktravis_time:end:0ddcdac2:start=1579030379670320695,finish=1579030380469793426,duration=799472731,event=ensure_path_components[0Ktravis_time:start:0890c55c[0Ktravis_time:end:0890c55c:start=1579030380473188226,finish=1579030380475494417,duration=2306191,event=redefine_curl[0Ktravis_time:start:07a23e01[0Ktravis_time:end:07a23e01:start=1579030380478426311,finish=1579030380481014102,duration=2587791,event=nonblock_pipe[0Ktravis_time:start:13489d5e[0Ktravis_time:end:13489d5e:start=1579030380484177002,finish=1579030386513604337,duration=6029427335,event=apt_get_update[0Ktravis_time:start:06db1297[0Ktravis_time:end:06db1297:start=1579030386517082118,finish=1579030386519325296,duration=2243178,event=deprecate_xcode_64[0Ktravis_time:start:0548d858[0Ktravis_time:end:0548d858:start=1579030386522218792,finish=1579030388810724301,duration=2288505509,event=update_heroku[0Ktravis_time:start:06057b9c[0Ktravis_time:end:06057b9c:start=1579030388813823715,finish=1579030388815908477,duration=2084762,event=shell_session_update[0Ktravis_time:start:0b10cc20[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:0b10cc20:start=1579030388818641012,finish=1579030390917246315,duration=2098605303,event=set_docker_mtu[0Ktravis_time:start:07859b54[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:07859b54:start=1579030390921631908,finish=1579030390987440703,duration=65808795,event=resolvconf[0Ktravis_time:start:0dff3874[0Ktravis_time:end:0dff3874:start=1579030390992698496,finish=1579030391123608385,duration=130909889,event=maven_central_mirror[0Ktravis_time:start:1ff2ebda[0Ktravis_time:end:1ff2ebda:start=1579030391131821132,finish=1579030391134154235,duration=2333103,event=fix_ps4[0Ktravis_time:start:04906800[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:0f1761e1[0K$ git clone --depth=50 --branch=version-compat https://github.com/Ibotta/sk-dist.git Ibotta/sk-dist
+Cloning into 'Ibotta/sk-dist'...
+remote: Enumerating objects: 26, done.[K
+remote: Counting objects:   3% (1/26)[Kremote: Counting objects:   7% (2/26)[Kremote: Counting objects:  11% (3/26)[Kremote: Counting objects:  15% (4/26)[Kremote: Counting objects:  19% (5/26)[Kremote: Counting objects:  23% (6/26)[Kremote: Counting objects:  26% (7/26)[Kremote: Counting objects:  30% (8/26)[Kremote: Counting objects:  34% (9/26)[Kremote: Counting objects:  38% (10/26)[Kremote: Counting objects:  42% (11/26)[Kremote: Counting objects:  46% (12/26)[Kremote: Counting objects:  50% (13/26)[Kremote: Counting objects:  53% (14/26)[Kremote: Counting objects:  57% (15/26)[Kremote: Counting objects:  61% (16/26)[Kremote: Counting objects:  65% (17/26)[Kremote: Counting objects:  69% (18/26)[Kremote: Counting objects:  73% (19/26)[Kremote: Counting objects:  76% (20/26)[Kremote: Counting objects:  80% (21/26)[Kremote: Counting objects:  84% (22/26)[Kremote: Counting objects:  88% (23/26)[Kremote: Counting objects:  92% (24/26)[Kremote: Counting objects:  96% (25/26)[Kremote: Counting objects: 100% (26/26)[Kremote: Counting objects: 100% (26/26), done.[K
+remote: Compressing objects:   5% (1/20)[Kremote: Compressing objects:  10% (2/20)[Kremote: Compressing objects:  15% (3/20)[Kremote: Compressing objects:  20% (4/20)[Kremote: Compressing objects:  25% (5/20)[Kremote: Compressing objects:  30% (6/20)[Kremote: Compressing objects:  35% (7/20)[Kremote: Compressing objects:  40% (8/20)[Kremote: Compressing objects:  45% (9/20)[Kremote: Compressing objects:  50% (10/20)[Kremote: Compressing objects:  55% (11/20)[Kremote: Compressing objects:  60% (12/20)[Kremote: Compressing objects:  65% (13/20)[Kremote: Compressing objects:  70% (14/20)[Kremote: Compressing objects:  75% (15/20)[Kremote: Compressing objects:  80% (16/20)[Kremote: Compressing objects:  85% (17/20)[Kremote: Compressing objects:  90% (18/20)[Kremote: Compressing objects:  95% (19/20)[Kremote: Compressing objects: 100% (20/20)[Kremote: Compressing objects: 100% (20/20), done.[K
+Receiving objects:   0% (1/295)   Receiving objects:   1% (3/295)   Receiving objects:   2% (6/295)   Receiving objects:   3% (9/295)   Receiving objects:   4% (12/295)   Receiving objects:   5% (15/295)   Receiving objects:   6% (18/295)   Receiving objects:   7% (21/295)   Receiving objects:   8% (24/295)   Receiving objects:   9% (27/295)   Receiving objects:  10% (30/295)   Receiving objects:  11% (33/295)   Receiving objects:  12% (36/295)   Receiving objects:  13% (39/295)   Receiving objects:  14% (42/295)   Receiving objects:  15% (45/295)   Receiving objects:  16% (48/295)   Receiving objects:  17% (51/295)   Receiving objects:  18% (54/295)   Receiving objects:  19% (57/295)   Receiving objects:  20% (59/295)   Receiving objects:  21% (62/295)   Receiving objects:  22% (65/295)   Receiving objects:  23% (68/295)   Receiving objects:  24% (71/295)   Receiving objects:  25% (74/295)   Receiving objects:  26% (77/295)   Receiving objects:  27% (80/295)   Receiving objects:  28% (83/295)   Receiving objects:  29% (86/295)   Receiving objects:  30% (89/295)   Receiving objects:  31% (92/295)   Receiving objects:  32% (95/295)   Receiving objects:  33% (98/295)   Receiving objects:  34% (101/295)   Receiving objects:  35% (104/295)   Receiving objects:  36% (107/295)   Receiving objects:  37% (110/295)   Receiving objects:  38% (113/295)   Receiving objects:  39% (116/295)   Receiving objects:  40% (118/295)   Receiving objects:  41% (121/295)   Receiving objects:  42% (124/295)   Receiving objects:  43% (127/295)   Receiving objects:  44% (130/295)   Receiving objects:  45% (133/295)   Receiving objects:  46% (136/295)   Receiving objects:  47% (139/295)   Receiving objects:  48% (142/295)   Receiving objects:  49% (145/295)   Receiving objects:  50% (148/295)   remote: Total 295 (delta 12), reused 15 (delta 6), pack-reused 269[K
+Receiving objects:  51% (151/295)   Receiving objects:  52% (154/295)   Receiving objects:  53% (157/295)   Receiving objects:  54% (160/295)   Receiving objects:  55% (163/295)   Receiving objects:  56% (166/295)   Receiving objects:  57% (169/295)   Receiving objects:  58% (172/295)   Receiving objects:  59% (175/295)   Receiving objects:  60% (177/295)   Receiving objects:  61% (180/295)   Receiving objects:  62% (183/295)   Receiving objects:  63% (186/295)   Receiving objects:  64% (189/295)   Receiving objects:  65% (192/295)   Receiving objects:  66% (195/295)   Receiving objects:  67% (198/295)   Receiving objects:  68% (201/295)   Receiving objects:  69% (204/295)   Receiving objects:  70% (207/295)   Receiving objects:  71% (210/295)   Receiving objects:  72% (213/295)   Receiving objects:  73% (216/295)   Receiving objects:  74% (219/295)   Receiving objects:  75% (222/295)   Receiving objects:  76% (225/295)   Receiving objects:  77% (228/295)   Receiving objects:  78% (231/295)   Receiving objects:  79% (234/295)   Receiving objects:  80% (236/295)   Receiving objects:  81% (239/295)   Receiving objects:  82% (242/295)   Receiving objects:  83% (245/295)   Receiving objects:  84% (248/295)   Receiving objects:  85% (251/295)   Receiving objects:  86% (254/295)   Receiving objects:  87% (257/295)   Receiving objects:  88% (260/295)   Receiving objects:  89% (263/295)   Receiving objects:  90% (266/295)   Receiving objects:  91% (269/295)   Receiving objects:  92% (272/295)   Receiving objects:  93% (275/295)   Receiving objects:  94% (278/295)   Receiving objects:  95% (281/295)   Receiving objects:  96% (284/295)   Receiving objects:  97% (287/295)   Receiving objects:  98% (290/295)   Receiving objects:  99% (293/295)   Receiving objects: 100% (295/295)   Receiving objects: 100% (295/295), 254.08 KiB | 5.52 MiB/s, done.
+Resolving deltas:   0% (0/144)   Resolving deltas:   7% (11/144)   Resolving deltas:   9% (14/144)   Resolving deltas:  14% (21/144)   Resolving deltas:  15% (22/144)   Resolving deltas:  22% (32/144)   Resolving deltas:  24% (35/144)   Resolving deltas:  25% (37/144)   Resolving deltas:  27% (39/144)   Resolving deltas:  29% (42/144)   Resolving deltas:  36% (52/144)   Resolving deltas:  38% (56/144)   Resolving deltas:  39% (57/144)   Resolving deltas:  40% (58/144)   Resolving deltas:  44% (64/144)   Resolving deltas:  45% (65/144)   Resolving deltas:  46% (67/144)   Resolving deltas:  47% (69/144)   Resolving deltas:  54% (78/144)   Resolving deltas:  55% (80/144)   Resolving deltas:  56% (81/144)   Resolving deltas:  57% (83/144)   Resolving deltas:  58% (84/144)   Resolving deltas:  61% (88/144)   Resolving deltas:  62% (90/144)   Resolving deltas:  63% (91/144)   Resolving deltas:  65% (94/144)   Resolving deltas:  66% (96/144)   Resolving deltas:  67% (97/144)   Resolving deltas:  68% (99/144)   Resolving deltas:  69% (100/144)   Resolving deltas:  72% (105/144)   Resolving deltas:  73% (106/144)   Resolving deltas:  86% (124/144)   Resolving deltas:  89% (129/144)   Resolving deltas:  90% (130/144)   Resolving deltas:  95% (137/144)   Resolving deltas:  98% (142/144)   Resolving deltas:  99% (143/144)   Resolving deltas: 100% (144/144)   Resolving deltas: 100% (144/144), done.
+travis_time:end:0f1761e1:start=1579030391140645940,finish=1579030391669501821,duration=528855881,event=checkout[0K$ cd Ibotta/sk-dist
+$ git checkout -qf 2e2411f01989a4711108714ef6a02a2535902d77
+travis_fold:end:git.checkout[0K
+travis_time:end:0f1761e1:start=1579030391140645940,finish=1579030391679252057,duration=538606117,event=checkout[0Ktravis_time:start:1c0dccd2[0K
+[33;1mSetting environment variables from .travis.yml[0m
+$ export TEST_SUITE=spark_2_4
+
+travis_time:end:1c0dccd2:start=1579030391683092529,finish=1579030391689828439,duration=6735910,event=env[0Ktravis_time:start:1cffd7b9[0K$ source ~/virtualenv/python3.6/bin/activate
+travis_time:end:1cffd7b9:start=1579030391693507673,finish=1579030391698863132,duration=5355459,event=[0K$ python --version
+Python 3.6.7
+$ pip --version
+pip 19.0.3 from /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/pip (python 3.6)
+Could not locate requirements.txt. Override the install: key in your .travis.yml to install dependencies.
+travis_time:start:155d7338[0K$ build_tools/$TEST_SUITE.sh
+Obtaining file:///home/travis/build/Ibotta/sk-dist
+Collecting pandas>=0.19.0 (from sk-dist==0.1.7)
+[?25l  Downloading https://files.pythonhosted.org/packages/52/3f/f6a428599e0d4497e1595030965b5ba455fd8ade6e977e3c819973c4b41d/pandas-0.25.3-cp36-cp36m-manylinux1_x86_64.whl (10.4MB)
+
+[?25hCollecting numpy==1.11.0 (from sk-dist==0.1.7)
+[?25l  Downloading https://files.pythonhosted.org/packages/1a/5c/57c6920bf4a1b1c11645b625e5483d778cedb3823ba21a017112730f0a12/numpy-1.11.0.tar.gz (4.2MB)
+
+[?25hCollecting scipy==0.17.0 (from sk-dist==0.1.7)
+[?25l  Downloading https://files.pythonhosted.org/packages/16/87/fdd4d069b1e784d4598605c20d8a7c535883b298aef960dc286b395359d7/scipy-0.17.0.tar.gz (12.4MB)
+
+[?25hCollecting scikit-learn==0.20.0 (from sk-dist==0.1.7)
+[?25l  Downloading https://files.pythonhosted.org/packages/0c/b2/05be9b6da9ae4a4c54f537be22e95833f722742a02b1e355fdc09363877c/scikit_learn-0.20.0-cp36-cp36m-manylinux1_x86_64.whl (5.3MB)
+
+[?25hCollecting joblib>=0.11 (from sk-dist==0.1.7)
+[?25l  Downloading https://files.pythonhosted.org/packages/28/5c/cf6a2b65a321c4a209efcdf64c2689efae2cb62661f8f6f4bb28547cf1bf/joblib-0.14.1-py2.py3-none-any.whl (294kB)
+
+[?25hCollecting xgboost>=0.4 (from sk-dist==0.1.7)
+[?25l  Downloading https://files.pythonhosted.org/packages/c1/24/5fe7237b2eca13ee0cfb100bec8c23f4e69ce9df852a64b0493d49dae4e0/xgboost-0.90-py2.py3-none-manylinux1_x86_64.whl (142.8MB)
+
+[?25hCollecting pyarrow>=0.8.0 (from sk-dist==0.1.7)
+[?25l  Downloading https://files.pythonhosted.org/packages/6c/32/ce1926f05679ea5448fd3b98fbd9419d8c7a65f87d1a12ee5fb9577e3a8e/pyarrow-0.15.1-cp36-cp36m-manylinux2010_x86_64.whl (59.2MB)
+
+[?25hCollecting pyspark>=2.4.4 (from sk-dist==0.1.7)
+[?25l  Downloading https://files.pythonhosted.org/packages/87/21/f05c186f4ddb01d15d0ddc36ef4b7e3cedbeb6412274a41f26b55a650ee5/pyspark-2.4.4.tar.gz (215.7MB)
+
+[?25hCollecting pytest-spark>=0.4.5 (from sk-dist==0.1.7)
+  Downloading https://files.pythonhosted.org/packages/9f/a9/8b4bc6c416bc8875b56e3bd290ce68dc65ad03e7cbfad878477f694525ca/pytest_spark-0.5.2-py3-none-any.whl
+Collecting pytz>=2017.2 (from pandas>=0.19.0->sk-dist==0.1.7)
+[?25l  Downloading https://files.pythonhosted.org/packages/e7/f9/f0b53f88060247251bf481fa6ea62cd0d25bf1b11a87888e53ce5b7c8ad2/pytz-2019.3-py2.py3-none-any.whl (509kB)
+
+[?25hCollecting python-dateutil>=2.6.1 (from pandas>=0.19.0->sk-dist==0.1.7)
+[?25l  Downloading https://files.pythonhosted.org/packages/d4/70/d60450c3dd48ef87586924207ae8907090de0b306af2bce5d134d78615cb/python_dateutil-2.8.1-py2.py3-none-any.whl (227kB)
+
+[?25hRequirement already satisfied: six>=1.0.0 in /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages (from pyarrow>=0.8.0->sk-dist==0.1.7) (1.11.0)
+Collecting py4j==0.10.7 (from pyspark>=2.4.4->sk-dist==0.1.7)
+[?25l  Downloading https://files.pythonhosted.org/packages/e3/53/c737818eb9a7dc32a7cd4f1396e787bd94200c3997c72c1dbe028587bd76/py4j-0.10.7-py2.py3-none-any.whl (197kB)
+
+[?25hRequirement already satisfied: pytest in /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages (from pytest-spark>=0.4.5->sk-dist==0.1.7) (4.3.1)
+Collecting findspark (from pytest-spark>=0.4.5->sk-dist==0.1.7)
+  Downloading https://files.pythonhosted.org/packages/b1/c8/e6e1f6a303ae5122dc28d131b5a67c5eb87cbf8f7ac5b9f87764ea1b1e1e/findspark-1.3.0-py2.py3-none-any.whl
+Requirement already satisfied: atomicwrites>=1.0 in /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages (from pytest->pytest-spark>=0.4.5->sk-dist==0.1.7) (1.2.1)
+Requirement already satisfied: pluggy>=0.7 in /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages (from pytest->pytest-spark>=0.4.5->sk-dist==0.1.7) (0.8.0)
+Requirement already satisfied: setuptools in /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages (from pytest->pytest-spark>=0.4.5->sk-dist==0.1.7) (40.8.0)
+Requirement already satisfied: attrs>=17.4.0 in /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages (from pytest->pytest-spark>=0.4.5->sk-dist==0.1.7) (18.2.0)
+Requirement already satisfied: py>=1.5.0 in /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages (from pytest->pytest-spark>=0.4.5->sk-dist==0.1.7) (1.7.0)
+Requirement already satisfied: more-itertools>=4.0.0; python_version > "2.7" in /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages (from pytest->pytest-spark>=0.4.5->sk-dist==0.1.7) (4.3.0)
+Building wheels for collected packages: numpy, scipy, pyspark
+  Building wheel for numpy (setup.py) ... [?25l- \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ done
+[?25h  Stored in directory: /home/travis/.cache/pip/wheels/be/32/77/a8d74e428b50a73cc626b25e5677c7583991831089428a088a
+  Building wheel for scipy (setup.py) ... [?25l- error
+  Complete output from command /home/travis/virtualenv/python3.6.7/bin/python -u -c "import setuptools, tokenize;__file__='/tmp/pip-install-ht3bxku7/scipy/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" bdist_wheel -d /tmp/pip-wheel-j9nur7kl --python-tag cp36:
+  lapack_opt_info:
+  lapack_mkl_info:
+  customize UnixCCompiler
+    libraries mkl_rt not found in ['/home/travis/virtualenv/python3.6.7/lib', '/usr/local/lib', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+    NOT AVAILABLE
+  
+  openblas_lapack_info:
+  customize UnixCCompiler
+  customize UnixCCompiler
+    libraries openblas not found in ['/home/travis/virtualenv/python3.6.7/lib', '/usr/local/lib', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+    NOT AVAILABLE
+  
+  openblas_clapack_info:
+  customize UnixCCompiler
+  customize UnixCCompiler
+    libraries openblas,lapack not found in ['/home/travis/virtualenv/python3.6.7/lib', '/usr/local/lib', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+    NOT AVAILABLE
+  
+  atlas_3_10_threads_info:
+  Setting PTATLAS=ATLAS
+  customize UnixCCompiler
+    libraries lapack_atlas not found in /home/travis/virtualenv/python3.6.7/lib
+  customize UnixCCompiler
+    libraries tatlas,tatlas not found in /home/travis/virtualenv/python3.6.7/lib
+  customize UnixCCompiler
+    libraries lapack_atlas not found in /usr/local/lib
+  customize UnixCCompiler
+    libraries tatlas,tatlas not found in /usr/local/lib
+  customize UnixCCompiler
+    libraries lapack_atlas not found in /usr/lib
+  customize UnixCCompiler
+    libraries tatlas,tatlas not found in /usr/lib
+  customize UnixCCompiler
+    libraries lapack_atlas not found in /usr/lib/x86_64-linux-gnu
+  customize UnixCCompiler
+    libraries tatlas,tatlas not found in /usr/lib/x86_64-linux-gnu
+  <class 'numpy.distutils.system_info.atlas_3_10_threads_info'>
+    NOT AVAILABLE
+  
+  atlas_3_10_info:
+  customize UnixCCompiler
+    libraries lapack_atlas not found in /home/travis/virtualenv/python3.6.7/lib
+  customize UnixCCompiler
+    libraries satlas,satlas not found in /home/travis/virtualenv/python3.6.7/lib
+  customize UnixCCompiler
+    libraries lapack_atlas not found in /usr/local/lib
+  customize UnixCCompiler
+    libraries satlas,satlas not found in /usr/local/lib
+  customize UnixCCompiler
+    libraries lapack_atlas not found in /usr/lib
+  customize UnixCCompiler
+    libraries satlas,satlas not found in /usr/lib
+  customize UnixCCompiler
+    libraries lapack_atlas not found in /usr/lib/x86_64-linux-gnu
+  customize UnixCCompiler
+    libraries satlas,satlas not found in /usr/lib/x86_64-linux-gnu
+  <class 'numpy.distutils.system_info.atlas_3_10_info'>
+    NOT AVAILABLE
+  
+  atlas_threads_info:
+  Setting PTATLAS=ATLAS
+  customize UnixCCompiler
+    libraries lapack_atlas not found in /home/travis/virtualenv/python3.6.7/lib
+  customize UnixCCompiler
+    libraries ptf77blas,ptcblas,atlas not found in /home/travis/virtualenv/python3.6.7/lib
+  customize UnixCCompiler
+    libraries lapack_atlas not found in /usr/local/lib
+  customize UnixCCompiler
+    libraries ptf77blas,ptcblas,atlas not found in /usr/local/lib
+  customize UnixCCompiler
+    libraries lapack_atlas not found in /usr/lib
+  customize UnixCCompiler
+    libraries ptf77blas,ptcblas,atlas not found in /usr/lib
+  customize UnixCCompiler
+    libraries lapack_atlas not found in /usr/lib/x86_64-linux-gnu
+  customize UnixCCompiler
+    libraries ptf77blas,ptcblas,atlas not found in /usr/lib/x86_64-linux-gnu
+  <class 'numpy.distutils.system_info.atlas_threads_info'>
+    NOT AVAILABLE
+  
+  atlas_info:
+  customize UnixCCompiler
+    libraries lapack_atlas not found in /home/travis/virtualenv/python3.6.7/lib
+  customize UnixCCompiler
+    libraries f77blas,cblas,atlas not found in /home/travis/virtualenv/python3.6.7/lib
+  customize UnixCCompiler
+    libraries lapack_atlas not found in /usr/local/lib
+  customize UnixCCompiler
+    libraries f77blas,cblas,atlas not found in /usr/local/lib
+  customize UnixCCompiler
+    libraries lapack_atlas not found in /usr/lib
+  customize UnixCCompiler
+    libraries f77blas,cblas,atlas not found in /usr/lib
+  customize UnixCCompiler
+    libraries lapack_atlas not found in /usr/lib/x86_64-linux-gnu
+  customize UnixCCompiler
+    libraries f77blas,cblas,atlas not found in /usr/lib/x86_64-linux-gnu
+  <class 'numpy.distutils.system_info.atlas_info'>
+    NOT AVAILABLE
+  
+  accelerate_info:
+    NOT AVAILABLE
+  
+  /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/numpy/distutils/system_info.py:638: UserWarning:
+      Atlas (http://math-atlas.sourceforge.net/) libraries not found.
+      Directories to search for the libraries can be specified in the
+      numpy/distutils/site.cfg file (section [atlas]) or by setting
+      the ATLAS environment variable.
+    self.calc_info()
+  lapack_info:
+  customize UnixCCompiler
+    libraries lapack not found in ['/home/travis/virtualenv/python3.6.7/lib', '/usr/local/lib', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+    NOT AVAILABLE
+  
+  /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/numpy/distutils/system_info.py:638: UserWarning:
+      Lapack (http://www.netlib.org/lapack/) libraries not found.
+      Directories to search for the libraries can be specified in the
+      numpy/distutils/site.cfg file (section [lapack]) or by setting
+      the LAPACK environment variable.
+    self.calc_info()
+  lapack_src_info:
+    NOT AVAILABLE
+  
+  /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/numpy/distutils/system_info.py:638: UserWarning:
+      Lapack (http://www.netlib.org/lapack/) sources not found.
+      Directories to search for the sources can be specified in the
+      numpy/distutils/site.cfg file (section [lapack_src]) or by setting
+      the LAPACK_SRC environment variable.
+    self.calc_info()
+    NOT AVAILABLE
+  
+  Running from scipy source directory.
+  Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    File "/tmp/pip-install-ht3bxku7/scipy/setup.py", line 265, in <module>
+      setup_package()
+    File "/tmp/pip-install-ht3bxku7/scipy/setup.py", line 262, in setup_package
+      setup(**metadata)
+    File "/home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/numpy/distutils/core.py", line 137, in setup
+      config = configuration()
+    File "/tmp/pip-install-ht3bxku7/scipy/setup.py", line 182, in configuration
+      config.add_subpackage('scipy')
+    File "/home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/numpy/distutils/misc_util.py", line 1036, in add_subpackage
+      caller_level = 2)
+    File "/home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/numpy/distutils/misc_util.py", line 1005, in get_subpackage
+      caller_level = caller_level + 1)
+    File "/home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/numpy/distutils/misc_util.py", line 942, in _get_configuration_from_setup_py
+      config = setup_module.configuration(*args)
+    File "scipy/setup.py", line 15, in configuration
+      config.add_subpackage('linalg')
+    File "/home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/numpy/distutils/misc_util.py", line 1036, in add_subpackage
+      caller_level = 2)
+    File "/home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/numpy/distutils/misc_util.py", line 1005, in get_subpackage
+      caller_level = caller_level + 1)
+    File "/home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/numpy/distutils/misc_util.py", line 942, in _get_configuration_from_setup_py
+      config = setup_module.configuration(*args)
+    File "scipy/linalg/setup.py", line 20, in configuration
+      raise NotFoundError('no lapack/blas resources found')
+  numpy.distutils.system_info.NotFoundError: no lapack/blas resources found
+  
+  ----------------------------------------
+[31m  Failed building wheel for scipy[0m
+[?25h  Running setup.py clean for scipy
+  Building wheel for pyspark (setup.py) ... [?25l- \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - done
+[?25h  Stored in directory: /home/travis/.cache/pip/wheels/ab/09/4d/0d184230058e654eb1b04467dbc1292f00eaa186544604b471
+Successfully built numpy pyspark
+Failed to build scipy
+[31mpandas 0.25.3 has requirement numpy>=1.13.3, but you'll have numpy 1.11.0 which is incompatible.[0m
+[31mpyarrow 0.15.1 has requirement numpy>=1.14, but you'll have numpy 1.11.0 which is incompatible.[0m
+Installing collected packages: numpy, pytz, python-dateutil, pandas, scipy, scikit-learn, joblib, xgboost, pyarrow, py4j, pyspark, findspark, pytest-spark, sk-dist
+  Found existing installation: numpy 1.16.2
+    Uninstalling numpy-1.16.2:
+      Successfully uninstalled numpy-1.16.2
+  Running setup.py install for scipy ... [?25l- error
+    Complete output from command /home/travis/virtualenv/python3.6.7/bin/python -u -c "import setuptools, tokenize;__file__='/tmp/pip-install-ht3bxku7/scipy/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-record-dud7db84/install-record.txt --single-version-externally-managed --compile --install-headers /home/travis/virtualenv/python3.6.7/include/site/python3.6/scipy:
+    lapack_opt_info:
+    openblas_lapack_info:
+      libraries openblas not found in ['/home/travis/virtualenv/python3.6.7/lib', '/usr/local/lib', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+      NOT AVAILABLE
+    
+    lapack_mkl_info:
+    mkl_info:
+      libraries mkl,vml,guide not found in ['/home/travis/virtualenv/python3.6.7/lib', '/usr/local/lib', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+      NOT AVAILABLE
+    
+      NOT AVAILABLE
+    
+    atlas_3_10_threads_info:
+    Setting PTATLAS=ATLAS
+      libraries tatlas,tatlas not found in /home/travis/virtualenv/python3.6.7/lib
+      libraries lapack_atlas not found in /home/travis/virtualenv/python3.6.7/lib
+      libraries tatlas,tatlas not found in /usr/local/lib
+      libraries lapack_atlas not found in /usr/local/lib
+      libraries tatlas,tatlas not found in /usr/lib
+      libraries lapack_atlas not found in /usr/lib
+      libraries tatlas,tatlas not found in /usr/lib/x86_64-linux-gnu
+      libraries lapack_atlas not found in /usr/lib/x86_64-linux-gnu
+    <class 'numpy.distutils.system_info.atlas_3_10_threads_info'>
+      NOT AVAILABLE
+    
+    atlas_3_10_info:
+      libraries satlas,satlas not found in /home/travis/virtualenv/python3.6.7/lib
+      libraries lapack_atlas not found in /home/travis/virtualenv/python3.6.7/lib
+      libraries satlas,satlas not found in /usr/local/lib
+      libraries lapack_atlas not found in /usr/local/lib
+      libraries satlas,satlas not found in /usr/lib
+      libraries lapack_atlas not found in /usr/lib
+      libraries satlas,satlas not found in /usr/lib/x86_64-linux-gnu
+      libraries lapack_atlas not found in /usr/lib/x86_64-linux-gnu
+    <class 'numpy.distutils.system_info.atlas_3_10_info'>
+      NOT AVAILABLE
+    
+    atlas_threads_info:
+    Setting PTATLAS=ATLAS
+      libraries ptf77blas,ptcblas,atlas not found in /home/travis/virtualenv/python3.6.7/lib
+      libraries lapack_atlas not found in /home/travis/virtualenv/python3.6.7/lib
+      libraries ptf77blas,ptcblas,atlas not found in /usr/local/lib
+      libraries lapack_atlas not found in /usr/local/lib
+      libraries ptf77blas,ptcblas,atlas not found in /usr/lib
+      libraries lapack_atlas not found in /usr/lib
+      libraries ptf77blas,ptcblas,atlas not found in /usr/lib/x86_64-linux-gnu
+      libraries lapack_atlas not found in /usr/lib/x86_64-linux-gnu
+    <class 'numpy.distutils.system_info.atlas_threads_info'>
+      NOT AVAILABLE
+    
+    atlas_info:
+      libraries f77blas,cblas,atlas not found in /home/travis/virtualenv/python3.6.7/lib
+      libraries lapack_atlas not found in /home/travis/virtualenv/python3.6.7/lib
+      libraries f77blas,cblas,atlas not found in /usr/local/lib
+      libraries lapack_atlas not found in /usr/local/lib
+      libraries f77blas,cblas,atlas not found in /usr/lib
+      libraries lapack_atlas not found in /usr/lib
+      libraries f77blas,cblas,atlas not found in /usr/lib/x86_64-linux-gnu
+      libraries lapack_atlas not found in /usr/lib/x86_64-linux-gnu
+    <class 'numpy.distutils.system_info.atlas_info'>
+      NOT AVAILABLE
+    
+    /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/numpy/distutils/system_info.py:1542: UserWarning:
+        Atlas (http://math-atlas.sourceforge.net/) libraries not found.
+        Directories to search for the libraries can be specified in the
+        numpy/distutils/site.cfg file (section [atlas]) or by setting
+        the ATLAS environment variable.
+      warnings.warn(AtlasNotFoundError.__doc__)
+    lapack_info:
+      libraries lapack not found in ['/home/travis/virtualenv/python3.6.7/lib', '/usr/local/lib', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+      NOT AVAILABLE
+    
+    /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/numpy/distutils/system_info.py:1553: UserWarning:
+        Lapack (http://www.netlib.org/lapack/) libraries not found.
+        Directories to search for the libraries can be specified in the
+        numpy/distutils/site.cfg file (section [lapack]) or by setting
+        the LAPACK environment variable.
+      warnings.warn(LapackNotFoundError.__doc__)
+    lapack_src_info:
+      NOT AVAILABLE
+    
+    /home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/numpy/distutils/system_info.py:1556: UserWarning:
+        Lapack (http://www.netlib.org/lapack/) sources not found.
+        Directories to search for the sources can be specified in the
+        numpy/distutils/site.cfg file (section [lapack_src]) or by setting
+        the LAPACK_SRC environment variable.
+      warnings.warn(LapackSrcNotFoundError.__doc__)
+      NOT AVAILABLE
+    
+    Running from scipy source directory.
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-install-ht3bxku7/scipy/setup.py", line 265, in <module>
+        setup_package()
+      File "/tmp/pip-install-ht3bxku7/scipy/setup.py", line 262, in setup_package
+        setup(**metadata)
+      File "/home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/numpy/distutils/core.py", line 135, in setup
+        config = configuration()
+      File "/tmp/pip-install-ht3bxku7/scipy/setup.py", line 182, in configuration
+        config.add_subpackage('scipy')
+      File "/home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/numpy/distutils/misc_util.py", line 1003, in add_subpackage
+        caller_level = 2)
+      File "/home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/numpy/distutils/misc_util.py", line 972, in get_subpackage
+        caller_level = caller_level + 1)
+      File "/home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/numpy/distutils/misc_util.py", line 909, in _get_configuration_from_setup_py
+        config = setup_module.configuration(*args)
+      File "scipy/setup.py", line 15, in configuration
+        config.add_subpackage('linalg')
+      File "/home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/numpy/distutils/misc_util.py", line 1003, in add_subpackage
+        caller_level = 2)
+      File "/home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/numpy/distutils/misc_util.py", line 972, in get_subpackage
+        caller_level = caller_level + 1)
+      File "/home/travis/virtualenv/python3.6.7/lib/python3.6/site-packages/numpy/distutils/misc_util.py", line 909, in _get_configuration_from_setup_py
+        config = setup_module.configuration(*args)
+      File "scipy/linalg/setup.py", line 20, in configuration
+        raise NotFoundError('no lapack/blas resources found')
+    numpy.distutils.system_info.NotFoundError: no lapack/blas resources found
+    
+    ----------------------------------------
+[31mCommand "/home/travis/virtualenv/python3.6.7/bin/python -u -c "import setuptools, tokenize;__file__='/tmp/pip-install-ht3bxku7/scipy/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-record-dud7db84/install-record.txt --single-version-externally-managed --compile --install-headers /home/travis/virtualenv/python3.6.7/include/site/python3.6/scipy" failed with error code 1 in /tmp/pip-install-ht3bxku7/scipy/[0m
+[?25hpandas 0.25.3 has requirement numpy>=1.13.3, but you have numpy 1.11.0.
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.6.7, pytest-4.3.1, py-1.7.0, pluggy-0.8.0
+rootdir: /home/travis/build/Ibotta/sk-dist, inifile:
+[1mcollecting ... [0m[1mcollected 46 items / 3 errors / 43 selected                                    [0m
+
+==================================== ERRORS ====================================
+[31m[1m__________ ERROR collecting skdist/distribute/tests/test_eliminate.py __________[0m
+[31mImportError while importing test module '/home/travis/build/Ibotta/sk-dist/skdist/distribute/tests/test_eliminate.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+skdist/distribute/tests/test_eliminate.py:7: in <module>
+    from scipy.sparse import csr_matrix
+E   ModuleNotFoundError: No module named 'scipy'[0m
+[31m[1m___________ ERROR collecting skdist/distribute/tests/test_search.py ____________[0m
+[31mImportError while importing test module '/home/travis/build/Ibotta/sk-dist/skdist/distribute/tests/test_search.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+skdist/distribute/tests/test_search.py:15: in <module>
+    from scipy.stats.distributions import expon
+E   ModuleNotFoundError: No module named 'scipy'[0m
+[31m[1m_________________ ERROR collecting skdist/tests/test_spark.py __________________[0m
+[31mImportError while importing test module '/home/travis/build/Ibotta/sk-dist/skdist/tests/test_spark.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+skdist/tests/test_spark.py:7: in <module>
+    import pandas as pd
+../../../virtualenv/python3.6.7/lib/python3.6/site-packages/pandas/__init__.py:22: in <module>
+    from pandas.compat.numpy import (
+../../../virtualenv/python3.6.7/lib/python3.6/site-packages/pandas/compat/numpy/__init__.py:25: in <module>
+    "this pandas version".format(_np_version)
+E   ImportError: this version of pandas is incompatible with numpy < 1.13.3
+E   your numpy version is 1.11.0.
+E   Please upgrade numpy to >= 1.13.3 to use this pandas version[0m
+!!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!!
+[31m[1m=========================== 3 error in 0.35 seconds ============================[0m
+travis_time:end:155d7338:start=1579030392507939341,finish=1579030609294658219,duration=216786718878,event=script[0K[31;1mThe command "build_tools/$TEST_SUITE.sh" exited with 2.[0m
+
+
+Done. Your build exited with 1.

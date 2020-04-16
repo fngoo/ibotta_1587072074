@@ -1,0 +1,1213 @@
+travis_fold:start:worker_info[0K[33;1mWorker information[0m
+hostname: fd6e625d-b8c3-48ac-92ba-8f2c8f827b35@1.worker-org-85d846cc5-s82fs.gce-production-1
+version: v6.2.6 https://github.com/travis-ci/worker/tree/ba21bd30589fd152126e13df30e0cc78ccdf2837
+instance: travis-job-fa7854c3-3099-44ae-b36b-cda538a5510b travis-ci-sardonyx-xenial-1553530528-f909ac5 (via amqp)
+startup: 6.061691613s
+travis_fold:end:worker_info[0Ktravis_time:start:1eb8bde2[0Ktravis_time:end:1eb8bde2:start=1579028970942784498,finish=1579028971103504582,duration=160720084,event=no_world_writable_dirs[0Ktravis_time:start:028552bc[0Ktravis_time:end:028552bc:start=1579028971106862081,finish=1579028971114354134,duration=7492053,event=agent[0Ktravis_time:start:22fe0d67[0Ktravis_time:end:22fe0d67:start=1579028971117279815,finish=1579028971119569836,duration=2290021,event=check_unsupported[0Ktravis_time:start:30dd07b7[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+Build language: python
+Build group: stable
+Build dist: xenial
+Build id: 637054636
+Job id: 637054639
+Runtime kernel version: 4.15.0-1028-gcp
+travis-build version: 1c634e1df
+[34m[1mBuild image provisioning date and time[0m
+Mon Mar 25 16:43:24 UTC 2019
+[34m[1mOperating System Details[0m
+Distributor ID:	Ubuntu
+Description:	Ubuntu 16.04.6 LTS
+Release:	16.04
+Codename:	xenial
+[34m[1mSystemd Version[0m
+systemd 229
+[34m[1mCookbooks Version[0m
+42e42e4 https://github.com/travis-ci/travis-cookbooks/tree/42e42e4
+[34m[1mgit version[0m
+git version 2.21.0
+[34m[1mbash version[0m
+GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
+[34m[1mgcc version[0m
+gcc (Ubuntu 5.4.0-6ubuntu1~16.04.11) 5.4.0 20160609
+[34m[1mdocker version[0m
+Client:
+ Version:           18.06.0-ce
+ API version:       1.38
+ Go version:        go1.10.3
+ Git commit:        0ffa825
+ Built:             Wed Jul 18 19:11:02 2018
+ OS/Arch:           linux/amd64
+ Experimental:      false
+
+Server:
+ Engine:
+  Version:          18.06.0-ce
+  API version:      1.38 (minimum version 1.12)
+  Go version:       go1.10.3
+  Git commit:       0ffa825
+  Built:            Wed Jul 18 19:09:05 2018
+  OS/Arch:          linux/amd64
+  Experimental:     false
+[34m[1mclang version[0m
+clang version 7.0.0 (tags/RELEASE_700/final)
+[34m[1mjq version[0m
+jq-1.5
+[34m[1mbats version[0m
+Bats 0.4.0
+[34m[1mshellcheck version[0m
+0.6.0
+[34m[1mshfmt version[0m
+v2.6.3
+[34m[1mccache version[0m
+3.2.4
+[34m[1mcmake version[0m
+cmake version 3.12.4
+[34m[1mheroku version[0m
+heroku/7.22.7 linux-x64 node-v11.10.1
+[34m[1mimagemagick version[0m
+Version: ImageMagick 6.8.9-9 Q16 x86_64 2018-09-28 http://www.imagemagick.org
+[34m[1mmd5deep version[0m
+4.4
+[34m[1mmercurial version[0m
+version 4.8
+[34m[1mmysql version[0m
+mysql  Ver 14.14 Distrib 5.7.25, for Linux (x86_64) using  EditLine wrapper
+[34m[1mopenssl version[0m
+OpenSSL 1.0.2g  1 Mar 2016
+[34m[1mpacker version[0m
+1.3.3
+[34m[1mpostgresql client version[0m
+psql (PostgreSQL) 10.7 (Ubuntu 10.7-1.pgdg16.04+1)
+[34m[1mragel version[0m
+Ragel State Machine Compiler version 6.8 Feb 2013
+[34m[1msudo version[0m
+1.8.16
+[34m[1mgzip version[0m
+gzip 1.6
+[34m[1mzip version[0m
+Zip 3.0
+[34m[1mvim version[0m
+VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Nov 24 2016 16:44:48)
+[34m[1miptables version[0m
+iptables v1.6.0
+[34m[1mcurl version[0m
+curl 7.47.0 (x86_64-pc-linux-gnu) libcurl/7.47.0 GnuTLS/3.4.10 zlib/1.2.8 libidn/1.32 librtmp/2.3
+[34m[1mwget version[0m
+GNU Wget 1.17.1 built on linux-gnu.
+[34m[1mrsync version[0m
+rsync  version 3.1.1  protocol version 31
+[34m[1mgimme version[0m
+v1.5.3
+[34m[1mnvm version[0m
+0.34.0
+[34m[1mperlbrew version[0m
+/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.86
+[34m[1mphpenv version[0m
+rbenv 1.1.2
+[34m[1mrvm version[0m
+rvm 1.29.7 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+[34m[1mdefault ruby version[0m
+ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
+[34m[1mCouchDB version[0m
+couchdb 1.6.1
+[34m[1mElasticSearch version[0m
+5.5.0
+[34m[1mInstalled Firefox version[0m
+firefox 63.0.1
+[34m[1mMongoDB version[0m
+MongoDB 4.0.7
+[34m[1mPhantomJS version[0m
+2.1.1
+[34m[1mPre-installed PostgreSQL versions[0m
+9.4.21
+9.5.16
+9.6.12
+[34m[1mRedis version[0m
+redis-server 5.0.4
+[34m[1mPre-installed Go versions[0m
+1.11.1
+[34m[1mmvn version[0m
+Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T18:41:47Z)
+[34m[1mgradle version[0m
+Gradle 4.10.2!
+[34m[1mlein version[0m
+Leiningen 2.9.1 on Java 11.0.2 OpenJDK 64-Bit Server VM
+[34m[1mPre-installed Node.js versions[0m
+v10.15.3
+v11.0.0
+v4.9.1
+v6.17.0
+v8.12.0
+v8.15.1
+v8.9
+[34m[1mphpenv versions[0m
+  system
+  5.6
+  5.6.40
+  7.1
+  7.1.27
+  7.2
+* 7.2.15 (set by /home/travis/.phpenv/version)
+  hhvm
+  hhvm-stable
+[34m[1mcomposer --version[0m
+Composer version 1.8.4 2019-02-11 10:52:10
+[34m[1mPre-installed Ruby versions[0m
+ruby-2.3.8
+ruby-2.4.5
+ruby-2.5.3
+travis_fold:end:system_info[0K
+travis_time:end:30dd07b7:start=1579028971122624657,finish=1579028971128500948,duration=5876291,event=show_system_info[0Ktravis_time:start:12ca6a22[0Ktravis_time:end:12ca6a22:start=1579028971131649189,finish=1579028971144423673,duration=12774484,event=rm_riak_source[0Ktravis_time:start:31934d15[0Ktravis_time:end:31934d15:start=1579028971149728517,finish=1579028971157494038,duration=7765521,event=fix_rwky_redis[0Ktravis_time:start:05b69f0b[0Ktravis_time:end:05b69f0b:start=1579028971161667878,finish=1579028972362270870,duration=1200602992,event=wait_for_network[0Ktravis_time:start:040004e8[0Ktravis_time:end:040004e8:start=1579028972365665400,finish=1579028972567408305,duration=201742905,event=update_apt_keys[0Ktravis_time:start:0bcb1c5d[0Ktravis_time:end:0bcb1c5d:start=1579028972570518733,finish=1579028972624842926,duration=54324193,event=fix_hhvm_source[0Ktravis_time:start:1aac448e[0Ktravis_time:end:1aac448e:start=1579028972628114793,finish=1579028972630825067,duration=2710274,event=update_mongo_arch[0Ktravis_time:start:00221b61[0Ktravis_time:end:00221b61:start=1579028972633839063,finish=1579028972675537665,duration=41698602,event=fix_sudo_enabled_trusty[0Ktravis_time:start:037ea92a[0Ktravis_time:end:037ea92a:start=1579028972678723055,finish=1579028972680960281,duration=2237226,event=update_glibc[0Ktravis_time:start:0e3d0de8[0Ktravis_time:end:0e3d0de8:start=1579028972683862816,finish=1579028972691556753,duration=7693937,event=clean_up_path[0Ktravis_time:start:022137ca[0Ktravis_time:end:022137ca:start=1579028972694525990,finish=1579028972702956267,duration=8430277,event=fix_resolv_conf[0Ktravis_time:start:22c5e730[0Ktravis_time:end:22c5e730:start=1579028972706039886,finish=1579028972715088702,duration=9048816,event=fix_etc_hosts[0Ktravis_time:start:00dbe700[0Ktravis_time:end:00dbe700:start=1579028972718269616,finish=1579028972728611480,duration=10341864,event=fix_mvn_settings_xml[0Ktravis_time:start:049957d7[0Ktravis_time:end:049957d7:start=1579028972731798463,finish=1579028972741828031,duration=10029568,event=no_ipv6_localhost[0Ktravis_time:start:09975ab0[0Ktravis_time:end:09975ab0:start=1579028972745040119,finish=1579028972747287442,duration=2247323,event=fix_etc_mavenrc[0Ktravis_time:start:08b229dd[0Ktravis_time:end:08b229dd:start=1579028972750349607,finish=1579028972753374708,duration=3025101,event=fix_wwdr_certificate[0Ktravis_time:start:09c5efe4[0Ktravis_time:end:09c5efe4:start=1579028972756306210,finish=1579028972779506833,duration=23200623,event=put_localhost_first[0Ktravis_time:start:00790b75[0Ktravis_time:end:00790b75:start=1579028972782709289,finish=1579028972785773790,duration=3064501,event=home_paths[0Ktravis_time:start:039d3116[0Ktravis_time:end:039d3116:start=1579028972788797375,finish=1579028972800637911,duration=11840536,event=disable_initramfs[0Ktravis_time:start:10e131d0[0Ktravis_time:end:10e131d0:start=1579028972803758995,finish=1579028973047384834,duration=243625839,event=disable_ssh_roaming[0Ktravis_time:start:0490734a[0Ktravis_time:end:0490734a:start=1579028973050428595,finish=1579028973052642562,duration=2213967,event=debug_tools[0Ktravis_time:start:09d188fb[0Ktravis_time:end:09d188fb:start=1579028973055635562,finish=1579028973058627877,duration=2992315,event=uninstall_oclint[0Ktravis_time:start:1f1732a6[0Ktravis_time:end:1f1732a6:start=1579028973061566837,finish=1579028973064397587,duration=2830750,event=rvm_use[0Ktravis_time:start:21033123[0Ktravis_time:end:21033123:start=1579028973067551468,finish=1579028973075389957,duration=7838489,event=rm_etc_boto_cfg[0Ktravis_time:start:38f5096f[0Ktravis_time:end:38f5096f:start=1579028973078580479,finish=1579028973081484448,duration=2903969,event=rm_oraclejdk8_symlink[0Ktravis_time:start:2091b7b8[0Ktravis_time:end:2091b7b8:start=1579028973084476214,finish=1579028973181367748,duration=96891534,event=enable_i386[0Ktravis_time:start:02e06deb[0Ktravis_time:end:02e06deb:start=1579028973184787680,finish=1579028973191293508,duration=6505828,event=update_rubygems[0Ktravis_time:start:0439d858[0Ktravis_time:end:0439d858:start=1579028973194355139,finish=1579028973993416791,duration=799061652,event=ensure_path_components[0Ktravis_time:start:0737d144[0Ktravis_time:end:0737d144:start=1579028973996975120,finish=1579028973999396019,duration=2420899,event=redefine_curl[0Ktravis_time:start:2da1bfb8[0Ktravis_time:end:2da1bfb8:start=1579028974002488165,finish=1579028974004808392,duration=2320227,event=nonblock_pipe[0Ktravis_time:start:206548aa[0Ktravis_time:end:206548aa:start=1579028974007848622,finish=1579028980042819813,duration=6034971191,event=apt_get_update[0Ktravis_time:start:002915c6[0Ktravis_time:end:002915c6:start=1579028980046142516,finish=1579028980048364334,duration=2221818,event=deprecate_xcode_64[0Ktravis_time:start:0477e50e[0Ktravis_time:end:0477e50e:start=1579028980051285477,finish=1579028982384764006,duration=2333478529,event=update_heroku[0Ktravis_time:start:27858ab3[0Ktravis_time:end:27858ab3:start=1579028982387921781,finish=1579028982390153636,duration=2231855,event=shell_session_update[0Ktravis_time:start:099cf05a[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:099cf05a:start=1579028982393148113,finish=1579028984534025025,duration=2140876912,event=set_docker_mtu[0Ktravis_time:start:1cb653b8[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:1cb653b8:start=1579028984538003821,finish=1579028984601742398,duration=63738577,event=resolvconf[0Ktravis_time:start:01a37fc4[0Ktravis_time:end:01a37fc4:start=1579028984608986459,finish=1579028984738268876,duration=129282417,event=maven_central_mirror[0Ktravis_time:start:0d78d2d7[0Ktravis_time:end:0d78d2d7:start=1579028984745237840,finish=1579028984747348503,duration=2110663,event=fix_ps4[0Ktravis_time:start:06d0d9aa[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:0e1c0e96[0K$ git clone --depth=50 --branch=version-compat https://github.com/Ibotta/sk-dist.git Ibotta/sk-dist
+Cloning into 'Ibotta/sk-dist'...
+remote: Enumerating objects: 17, done.[K
+remote: Counting objects:   5% (1/17)[Kremote: Counting objects:  11% (2/17)[Kremote: Counting objects:  17% (3/17)[Kremote: Counting objects:  23% (4/17)[Kremote: Counting objects:  29% (5/17)[Kremote: Counting objects:  35% (6/17)[Kremote: Counting objects:  41% (7/17)[Kremote: Counting objects:  47% (8/17)[Kremote: Counting objects:  52% (9/17)[Kremote: Counting objects:  58% (10/17)[Kremote: Counting objects:  64% (11/17)[Kremote: Counting objects:  70% (12/17)[Kremote: Counting objects:  76% (13/17)[Kremote: Counting objects:  82% (14/17)[Kremote: Counting objects:  88% (15/17)[Kremote: Counting objects:  94% (16/17)[Kremote: Counting objects: 100% (17/17)[Kremote: Counting objects: 100% (17/17), done.[K
+remote: Compressing objects:   7% (1/14)[Kremote: Compressing objects:  14% (2/14)[Kremote: Compressing objects:  21% (3/14)[Kremote: Compressing objects:  28% (4/14)[Kremote: Compressing objects:  35% (5/14)[Kremote: Compressing objects:  42% (6/14)[Kremote: Compressing objects:  50% (7/14)[Kremote: Compressing objects:  57% (8/14)[Kremote: Compressing objects:  64% (9/14)[Kremote: Compressing objects:  71% (10/14)[Kremote: Compressing objects:  78% (11/14)[Kremote: Compressing objects:  85% (12/14)[Kremote: Compressing objects:  92% (13/14)[Kremote: Compressing objects: 100% (14/14)[Kremote: Compressing objects: 100% (14/14), done.[K
+Receiving objects:   0% (1/286)   Receiving objects:   1% (3/286)   Receiving objects:   2% (6/286)   Receiving objects:   3% (9/286)   Receiving objects:   4% (12/286)   Receiving objects:   5% (15/286)   Receiving objects:   6% (18/286)   Receiving objects:   7% (21/286)   Receiving objects:   8% (23/286)   Receiving objects:   9% (26/286)   Receiving objects:  10% (29/286)   Receiving objects:  11% (32/286)   Receiving objects:  12% (35/286)   Receiving objects:  13% (38/286)   Receiving objects:  14% (41/286)   Receiving objects:  15% (43/286)   Receiving objects:  16% (46/286)   Receiving objects:  17% (49/286)   Receiving objects:  18% (52/286)   Receiving objects:  19% (55/286)   Receiving objects:  20% (58/286)   Receiving objects:  21% (61/286)   Receiving objects:  22% (63/286)   Receiving objects:  23% (66/286)   Receiving objects:  24% (69/286)   Receiving objects:  25% (72/286)   Receiving objects:  26% (75/286)   Receiving objects:  27% (78/286)   Receiving objects:  28% (81/286)   Receiving objects:  29% (83/286)   Receiving objects:  30% (86/286)   Receiving objects:  31% (89/286)   Receiving objects:  32% (92/286)   Receiving objects:  33% (95/286)   Receiving objects:  34% (98/286)   Receiving objects:  35% (101/286)   Receiving objects:  36% (103/286)   Receiving objects:  37% (106/286)   Receiving objects:  38% (109/286)   Receiving objects:  39% (112/286)   Receiving objects:  40% (115/286)   remote: Total 286 (delta 6), reused 9 (delta 3), pack-reused 269[K
+Receiving objects:  41% (118/286)   Receiving objects:  42% (121/286)   Receiving objects:  43% (123/286)   Receiving objects:  44% (126/286)   Receiving objects:  45% (129/286)   Receiving objects:  46% (132/286)   Receiving objects:  47% (135/286)   Receiving objects:  48% (138/286)   Receiving objects:  49% (141/286)   Receiving objects:  50% (143/286)   Receiving objects:  51% (146/286)   Receiving objects:  52% (149/286)   Receiving objects:  53% (152/286)   Receiving objects:  54% (155/286)   Receiving objects:  55% (158/286)   Receiving objects:  56% (161/286)   Receiving objects:  57% (164/286)   Receiving objects:  58% (166/286)   Receiving objects:  59% (169/286)   Receiving objects:  60% (172/286)   Receiving objects:  61% (175/286)   Receiving objects:  62% (178/286)   Receiving objects:  63% (181/286)   Receiving objects:  64% (184/286)   Receiving objects:  65% (186/286)   Receiving objects:  66% (189/286)   Receiving objects:  67% (192/286)   Receiving objects:  68% (195/286)   Receiving objects:  69% (198/286)   Receiving objects:  70% (201/286)   Receiving objects:  71% (204/286)   Receiving objects:  72% (206/286)   Receiving objects:  73% (209/286)   Receiving objects:  74% (212/286)   Receiving objects:  75% (215/286)   Receiving objects:  76% (218/286)   Receiving objects:  77% (221/286)   Receiving objects:  78% (224/286)   Receiving objects:  79% (226/286)   Receiving objects:  80% (229/286)   Receiving objects:  81% (232/286)   Receiving objects:  82% (235/286)   Receiving objects:  83% (238/286)   Receiving objects:  84% (241/286)   Receiving objects:  85% (244/286)   Receiving objects:  86% (246/286)   Receiving objects:  87% (249/286)   Receiving objects:  88% (252/286)   Receiving objects:  89% (255/286)   Receiving objects:  90% (258/286)   Receiving objects:  91% (261/286)   Receiving objects:  92% (264/286)   Receiving objects:  93% (266/286)   Receiving objects:  94% (269/286)   Receiving objects:  95% (272/286)   Receiving objects:  96% (275/286)   Receiving objects:  97% (278/286)   Receiving objects:  98% (281/286)   Receiving objects:  99% (284/286)   Receiving objects: 100% (286/286)   Receiving objects: 100% (286/286), 253.37 KiB | 5.28 MiB/s, done.
+Resolving deltas:   0% (0/138)   Resolving deltas:   7% (11/138)   Resolving deltas:   8% (12/138)   Resolving deltas:  10% (15/138)   Resolving deltas:  14% (20/138)   Resolving deltas:  22% (31/138)   Resolving deltas:  23% (33/138)   Resolving deltas:  25% (35/138)   Resolving deltas:  26% (36/138)   Resolving deltas:  28% (39/138)   Resolving deltas:  30% (42/138)   Resolving deltas:  31% (43/138)   Resolving deltas:  37% (52/138)   Resolving deltas:  38% (53/138)   Resolving deltas:  41% (57/138)   Resolving deltas:  42% (58/138)   Resolving deltas:  44% (61/138)   Resolving deltas:  46% (64/138)   Resolving deltas:  47% (65/138)   Resolving deltas:  49% (68/138)   Resolving deltas:  55% (76/138)   Resolving deltas:  59% (82/138)   Resolving deltas:  60% (83/138)   Resolving deltas:  61% (85/138)   Resolving deltas:  63% (87/138)   Resolving deltas:  65% (90/138)   Resolving deltas:  68% (94/138)   Resolving deltas:  69% (96/138)   Resolving deltas:  70% (97/138)   Resolving deltas:  71% (99/138)   Resolving deltas:  72% (100/138)   Resolving deltas:  74% (103/138)   Resolving deltas:  76% (106/138)   Resolving deltas:  77% (107/138)   Resolving deltas:  84% (117/138)   Resolving deltas:  85% (118/138)   Resolving deltas:  86% (119/138)   Resolving deltas:  88% (122/138)   Resolving deltas:  98% (136/138)   Resolving deltas:  99% (137/138)   Resolving deltas: 100% (138/138)   Resolving deltas: 100% (138/138), done.
+travis_time:end:0e1c0e96:start=1579028984753620832,finish=1579028985286078552,duration=532457720,event=checkout[0K$ cd Ibotta/sk-dist
+$ git checkout -qf 0ca99eb119ca4250cf469060e7448eb052524b50
+travis_fold:end:git.checkout[0K
+travis_time:end:0e1c0e96:start=1579028984753620832,finish=1579028985295273819,duration=541652987,event=checkout[0Ktravis_time:start:0249909c[0K
+[33;1mSetting environment variables from .travis.yml[0m
+$ export TEST_SUITE=spark_2_3
+
+travis_time:end:0249909c:start=1579028985298676503,finish=1579028985305096670,duration=6420167,event=env[0Ktravis_time:start:03ba1414[0K$ source ~/virtualenv/python3.7/bin/activate
+travis_time:end:03ba1414:start=1579028985308310853,finish=1579028985312998113,duration=4687260,event=[0K$ python --version
+Python 3.7.1
+$ pip --version
+pip 19.0.3 from /home/travis/virtualenv/python3.7.1/lib/python3.7/site-packages/pip (python 3.7)
+Could not locate requirements.txt. Override the install: key in your .travis.yml to install dependencies.
+travis_time:start:16fa0e60[0K$ build_tools/$TEST_SUITE.sh
+Obtaining file:///home/travis/build/Ibotta/sk-dist
+Collecting pandas>=0.19.0 (from sk-dist==0.1.7)
+[?25l  Downloading https://files.pythonhosted.org/packages/63/e0/a1b39cdcb2c391f087a1538bc8a6d62a82d0439693192aef541d7b123769/pandas-0.25.3-cp37-cp37m-manylinux1_x86_64.whl (10.4MB)
+
+[?25hRequirement already satisfied: numpy>=0.17.0 in /home/travis/virtualenv/python3.7.1/lib/python3.7/site-packages (from sk-dist==0.1.7) (1.15.4)
+Collecting scipy>=1.3.1 (from sk-dist==0.1.7)
+[?25l  Downloading https://files.pythonhosted.org/packages/dd/82/c1fe128f3526b128cfd185580ba40d01371c5d299fcf7f77968e22dfcc2e/scipy-1.4.1-cp37-cp37m-manylinux1_x86_64.whl (26.1MB)
+
+[?25hCollecting scikit-learn==0.19.0 (from sk-dist==0.1.7)
+[?25l  Downloading https://files.pythonhosted.org/packages/c2/38/e3b0333e661ab411545583cb24940223917fe7ffc9c68a77730dce3b10b0/scikit-learn-0.19.0.tar.gz (9.3MB)
+
+[?25hCollecting joblib>=0.11 (from sk-dist==0.1.7)
+[?25l  Downloading https://files.pythonhosted.org/packages/28/5c/cf6a2b65a321c4a209efcdf64c2689efae2cb62661f8f6f4bb28547cf1bf/joblib-0.14.1-py2.py3-none-any.whl (294kB)
+
+[?25hCollecting xgboost>=0.4 (from sk-dist==0.1.7)
+[?25l  Downloading https://files.pythonhosted.org/packages/c1/24/5fe7237b2eca13ee0cfb100bec8c23f4e69ce9df852a64b0493d49dae4e0/xgboost-0.90-py2.py3-none-manylinux1_x86_64.whl (142.8MB)
+
+[?25hCollecting pyarrow>=0.8.0 (from sk-dist==0.1.7)
+[?25l  Downloading https://files.pythonhosted.org/packages/5a/ee/fd2d696eff911f76ed14feeb51e6db6783dd04abd9b8e14be4cbf48d6088/pyarrow-0.15.1-cp37-cp37m-manylinux2010_x86_64.whl (59.2MB)
+
+[?25hCollecting pyspark>=2.4.4 (from sk-dist==0.1.7)
+[?25l  Downloading https://files.pythonhosted.org/packages/87/21/f05c186f4ddb01d15d0ddc36ef4b7e3cedbeb6412274a41f26b55a650ee5/pyspark-2.4.4.tar.gz (215.7MB)
+
+[?25hCollecting pytest-spark>=0.4.5 (from sk-dist==0.1.7)
+  Downloading https://files.pythonhosted.org/packages/9f/a9/8b4bc6c416bc8875b56e3bd290ce68dc65ad03e7cbfad878477f694525ca/pytest_spark-0.5.2-py3-none-any.whl
+Collecting pytz>=2017.2 (from pandas>=0.19.0->sk-dist==0.1.7)
+[?25l  Downloading https://files.pythonhosted.org/packages/e7/f9/f0b53f88060247251bf481fa6ea62cd0d25bf1b11a87888e53ce5b7c8ad2/pytz-2019.3-py2.py3-none-any.whl (509kB)
+
+[?25hCollecting python-dateutil>=2.6.1 (from pandas>=0.19.0->sk-dist==0.1.7)
+[?25l  Downloading https://files.pythonhosted.org/packages/d4/70/d60450c3dd48ef87586924207ae8907090de0b306af2bce5d134d78615cb/python_dateutil-2.8.1-py2.py3-none-any.whl (227kB)
+
+[?25hRequirement already satisfied: six>=1.0.0 in /home/travis/virtualenv/python3.7.1/lib/python3.7/site-packages (from pyarrow>=0.8.0->sk-dist==0.1.7) (1.11.0)
+Collecting py4j==0.10.7 (from pyspark>=2.4.4->sk-dist==0.1.7)
+[?25l  Downloading https://files.pythonhosted.org/packages/e3/53/c737818eb9a7dc32a7cd4f1396e787bd94200c3997c72c1dbe028587bd76/py4j-0.10.7-py2.py3-none-any.whl (197kB)
+
+[?25hCollecting findspark (from pytest-spark>=0.4.5->sk-dist==0.1.7)
+  Downloading https://files.pythonhosted.org/packages/b1/c8/e6e1f6a303ae5122dc28d131b5a67c5eb87cbf8f7ac5b9f87764ea1b1e1e/findspark-1.3.0-py2.py3-none-any.whl
+Requirement already satisfied: pytest in /home/travis/virtualenv/python3.7.1/lib/python3.7/site-packages (from pytest-spark>=0.4.5->sk-dist==0.1.7) (4.3.1)
+Requirement already satisfied: atomicwrites>=1.0 in /home/travis/virtualenv/python3.7.1/lib/python3.7/site-packages (from pytest->pytest-spark>=0.4.5->sk-dist==0.1.7) (1.2.1)
+Requirement already satisfied: more-itertools>=4.0.0; python_version > "2.7" in /home/travis/virtualenv/python3.7.1/lib/python3.7/site-packages (from pytest->pytest-spark>=0.4.5->sk-dist==0.1.7) (4.3.0)
+Requirement already satisfied: attrs>=17.4.0 in /home/travis/virtualenv/python3.7.1/lib/python3.7/site-packages (from pytest->pytest-spark>=0.4.5->sk-dist==0.1.7) (18.2.0)
+Requirement already satisfied: pluggy>=0.7 in /home/travis/virtualenv/python3.7.1/lib/python3.7/site-packages (from pytest->pytest-spark>=0.4.5->sk-dist==0.1.7) (0.8.0)
+Requirement already satisfied: py>=1.5.0 in /home/travis/virtualenv/python3.7.1/lib/python3.7/site-packages (from pytest->pytest-spark>=0.4.5->sk-dist==0.1.7) (1.7.0)
+Requirement already satisfied: setuptools in /home/travis/virtualenv/python3.7.1/lib/python3.7/site-packages (from pytest->pytest-spark>=0.4.5->sk-dist==0.1.7) (40.8.0)
+Building wheels for collected packages: scikit-learn, pyspark
+  Building wheel for scikit-learn (setup.py) ... [?25l- \ error
+  Complete output from command /home/travis/virtualenv/python3.7.1/bin/python -u -c "import setuptools, tokenize;__file__='/tmp/pip-install-xbtvycj5/scikit-learn/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" bdist_wheel -d /tmp/pip-wheel-w3vepi3w --python-tag cp37:
+  Partial import of sklearn during the build process.
+  Traceback (most recent call last):
+    File "/tmp/pip-install-xbtvycj5/scikit-learn/setup.py", line 148, in get_scipy_status
+      import scipy
+  ModuleNotFoundError: No module named 'scipy'
+  Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    File "/tmp/pip-install-xbtvycj5/scikit-learn/setup.py", line 269, in <module>
+      setup_package()
+    File "/tmp/pip-install-xbtvycj5/scikit-learn/setup.py", line 259, in setup_package
+      .format(scipy_req_str, instructions))
+  ImportError: Scientific Python (SciPy) is not installed.
+  scikit-learn requires SciPy >= 0.13.3.
+  Installation instructions are available on the scikit-learn website: http://scikit-learn.org/stable/install.html
+  
+  
+  ----------------------------------------
+[31m  Failed building wheel for scikit-learn[0m
+[?25h  Running setup.py clean for scikit-learn
+  Building wheel for pyspark (setup.py) ... [?25l- \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ done
+[?25h  Stored in directory: /home/travis/.cache/pip/wheels/ab/09/4d/0d184230058e654eb1b04467dbc1292f00eaa186544604b471
+Successfully built pyspark
+Failed to build scikit-learn
+Installing collected packages: pytz, python-dateutil, pandas, scipy, scikit-learn, joblib, xgboost, pyarrow, py4j, pyspark, findspark, pytest-spark, sk-dist
+  Running setup.py install for scikit-learn ... [?25l- \ | / - \ | / - \ | / - \ error
+    Complete output from command /home/travis/virtualenv/python3.7.1/bin/python -u -c "import setuptools, tokenize;__file__='/tmp/pip-install-xbtvycj5/scikit-learn/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-record-okgxb0pu/install-record.txt --single-version-externally-managed --compile --install-headers /home/travis/virtualenv/python3.7.1/include/site/python3.7/scikit-learn:
+    Partial import of sklearn during the build process.
+    blas_opt_info:
+    blas_mkl_info:
+    customize UnixCCompiler
+      libraries mkl_rt not found in ['/home/travis/virtualenv/python3.7.1/lib', '/usr/local/lib', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+      NOT AVAILABLE
+    
+    blis_info:
+    customize UnixCCompiler
+      libraries blis not found in ['/home/travis/virtualenv/python3.7.1/lib', '/usr/local/lib', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+      NOT AVAILABLE
+    
+    openblas_info:
+    customize UnixCCompiler
+    customize UnixCCompiler
+      libraries openblas not found in ['/home/travis/virtualenv/python3.7.1/lib', '/usr/local/lib', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+      NOT AVAILABLE
+    
+    atlas_3_10_blas_threads_info:
+    Setting PTATLAS=ATLAS
+    customize UnixCCompiler
+      libraries tatlas not found in ['/home/travis/virtualenv/python3.7.1/lib', '/usr/local/lib', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+      NOT AVAILABLE
+    
+    atlas_3_10_blas_info:
+    customize UnixCCompiler
+      libraries satlas not found in ['/home/travis/virtualenv/python3.7.1/lib', '/usr/local/lib', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+      NOT AVAILABLE
+    
+    atlas_blas_threads_info:
+    Setting PTATLAS=ATLAS
+    customize UnixCCompiler
+      libraries ptf77blas,ptcblas,atlas not found in ['/home/travis/virtualenv/python3.7.1/lib', '/usr/local/lib', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+      NOT AVAILABLE
+    
+    atlas_blas_info:
+    customize UnixCCompiler
+      libraries f77blas,cblas,atlas not found in ['/home/travis/virtualenv/python3.7.1/lib', '/usr/local/lib', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+      NOT AVAILABLE
+    
+    accelerate_info:
+      NOT AVAILABLE
+    
+    /home/travis/virtualenv/python3.7.1/lib/python3.7/site-packages/numpy/distutils/system_info.py:625: UserWarning:
+        Atlas (http://math-atlas.sourceforge.net/) libraries not found.
+        Directories to search for the libraries can be specified in the
+        numpy/distutils/site.cfg file (section [atlas]) or by setting
+        the ATLAS environment variable.
+      self.calc_info()
+    blas_info:
+    customize UnixCCompiler
+      libraries blas not found in ['/home/travis/virtualenv/python3.7.1/lib', '/usr/local/lib', '/usr/lib', '/usr/lib/x86_64-linux-gnu']
+      NOT AVAILABLE
+    
+    /home/travis/virtualenv/python3.7.1/lib/python3.7/site-packages/numpy/distutils/system_info.py:625: UserWarning:
+        Blas (http://www.netlib.org/blas/) libraries not found.
+        Directories to search for the libraries can be specified in the
+        numpy/distutils/site.cfg file (section [blas]) or by setting
+        the BLAS environment variable.
+      self.calc_info()
+    blas_src_info:
+      NOT AVAILABLE
+    
+    /home/travis/virtualenv/python3.7.1/lib/python3.7/site-packages/numpy/distutils/system_info.py:625: UserWarning:
+        Blas (http://www.netlib.org/blas/) sources not found.
+        Directories to search for the sources can be specified in the
+        numpy/distutils/site.cfg file (section [blas_src]) or by setting
+        the BLAS_SRC environment variable.
+      self.calc_info()
+      NOT AVAILABLE
+    
+    sklearn/setup.py:72: UserWarning:
+        Blas (http://www.netlib.org/blas/) libraries not found.
+        Directories to search for the libraries can be specified in the
+        numpy/distutils/site.cfg file (section [blas]) or by setting
+        the BLAS environment variable.
+      warnings.warn(BlasNotFoundError.__doc__)
+    running install
+    running build
+    running config_cc
+    unifing config_cc, config, build_clib, build_ext, build commands --compiler options
+    running config_fc
+    unifing config_fc, config, build_clib, build_ext, build commands --fcompiler options
+    running build_src
+    build_src
+    building library "libsvm-skl" sources
+    building library "cblas" sources
+    building extension "sklearn.__check_build._check_build" sources
+    building extension "sklearn.cluster._dbscan_inner" sources
+    building extension "sklearn.cluster._hierarchical" sources
+    building extension "sklearn.cluster._k_means_elkan" sources
+    building extension "sklearn.cluster._k_means" sources
+    building extension "sklearn.datasets._svmlight_format" sources
+    building extension "sklearn.decomposition._online_lda" sources
+    building extension "sklearn.decomposition.cdnmf_fast" sources
+    building extension "sklearn.ensemble._gradient_boosting" sources
+    building extension "sklearn.feature_extraction._hashing" sources
+    building extension "sklearn.manifold._utils" sources
+    building extension "sklearn.manifold._barnes_hut_tsne" sources
+    building extension "sklearn.metrics.pairwise_fast" sources
+    building extension "sklearn.metrics/cluster.expected_mutual_info_fast" sources
+    building extension "sklearn.neighbors.ball_tree" sources
+    building extension "sklearn.neighbors.kd_tree" sources
+    building extension "sklearn.neighbors.dist_metrics" sources
+    building extension "sklearn.neighbors.typedefs" sources
+    building extension "sklearn.neighbors.quad_tree" sources
+    building extension "sklearn.tree._tree" sources
+    building extension "sklearn.tree._splitter" sources
+    building extension "sklearn.tree._criterion" sources
+    building extension "sklearn.tree._utils" sources
+    building extension "sklearn.svm.libsvm" sources
+    building extension "sklearn.svm.liblinear" sources
+    building extension "sklearn.svm.libsvm_sparse" sources
+    building extension "sklearn._isotonic" sources
+    building extension "sklearn.linear_model.cd_fast" sources
+    building extension "sklearn.linear_model.sgd_fast" sources
+    building extension "sklearn.linear_model.sag_fast" sources
+    building extension "sklearn.utils.sparsefuncs_fast" sources
+    building extension "sklearn.utils.arrayfuncs" sources
+    building extension "sklearn.utils.murmurhash" sources
+    building extension "sklearn.utils.lgamma" sources
+    building extension "sklearn.utils.graph_shortest_path" sources
+    building extension "sklearn.utils.fast_dict" sources
+    building extension "sklearn.utils.seq_dataset" sources
+    building extension "sklearn.utils.weight_vector" sources
+    building extension "sklearn.utils._random" sources
+    building extension "sklearn.utils._logistic_sigmoid" sources
+    building data_files sources
+    build_src: building npy-pkg config files
+    running build_py
+    creating build
+    creating build/lib.linux-x86_64-3.7
+    creating build/lib.linux-x86_64-3.7/sklearn
+    copying sklearn/pipeline.py -> build/lib.linux-x86_64-3.7/sklearn
+    copying sklearn/multiclass.py -> build/lib.linux-x86_64-3.7/sklearn
+    copying sklearn/discriminant_analysis.py -> build/lib.linux-x86_64-3.7/sklearn
+    copying sklearn/calibration.py -> build/lib.linux-x86_64-3.7/sklearn
+    copying sklearn/multioutput.py -> build/lib.linux-x86_64-3.7/sklearn
+    copying sklearn/random_projection.py -> build/lib.linux-x86_64-3.7/sklearn
+    copying sklearn/kernel_approximation.py -> build/lib.linux-x86_64-3.7/sklearn
+    copying sklearn/dummy.py -> build/lib.linux-x86_64-3.7/sklearn
+    copying sklearn/cross_validation.py -> build/lib.linux-x86_64-3.7/sklearn
+    copying sklearn/exceptions.py -> build/lib.linux-x86_64-3.7/sklearn
+    copying sklearn/learning_curve.py -> build/lib.linux-x86_64-3.7/sklearn
+    copying sklearn/isotonic.py -> build/lib.linux-x86_64-3.7/sklearn
+    copying sklearn/base.py -> build/lib.linux-x86_64-3.7/sklearn
+    copying sklearn/grid_search.py -> build/lib.linux-x86_64-3.7/sklearn
+    copying sklearn/__init__.py -> build/lib.linux-x86_64-3.7/sklearn
+    copying sklearn/kernel_ridge.py -> build/lib.linux-x86_64-3.7/sklearn
+    copying sklearn/setup.py -> build/lib.linux-x86_64-3.7/sklearn
+    copying sklearn/naive_bayes.py -> build/lib.linux-x86_64-3.7/sklearn
+    creating build/lib.linux-x86_64-3.7/sklearn/__check_build
+    copying sklearn/__check_build/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/__check_build
+    copying sklearn/__check_build/setup.py -> build/lib.linux-x86_64-3.7/sklearn/__check_build
+    creating build/lib.linux-x86_64-3.7/sklearn/_build_utils
+    copying sklearn/_build_utils/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/_build_utils
+    creating build/lib.linux-x86_64-3.7/sklearn/covariance
+    copying sklearn/covariance/shrunk_covariance_.py -> build/lib.linux-x86_64-3.7/sklearn/covariance
+    copying sklearn/covariance/outlier_detection.py -> build/lib.linux-x86_64-3.7/sklearn/covariance
+    copying sklearn/covariance/graph_lasso_.py -> build/lib.linux-x86_64-3.7/sklearn/covariance
+    copying sklearn/covariance/robust_covariance.py -> build/lib.linux-x86_64-3.7/sklearn/covariance
+    copying sklearn/covariance/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/covariance
+    copying sklearn/covariance/empirical_covariance_.py -> build/lib.linux-x86_64-3.7/sklearn/covariance
+    creating build/lib.linux-x86_64-3.7/sklearn/covariance/tests
+    copying sklearn/covariance/tests/test_covariance.py -> build/lib.linux-x86_64-3.7/sklearn/covariance/tests
+    copying sklearn/covariance/tests/test_robust_covariance.py -> build/lib.linux-x86_64-3.7/sklearn/covariance/tests
+    copying sklearn/covariance/tests/test_graph_lasso.py -> build/lib.linux-x86_64-3.7/sklearn/covariance/tests
+    copying sklearn/covariance/tests/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/covariance/tests
+    creating build/lib.linux-x86_64-3.7/sklearn/cross_decomposition
+    copying sklearn/cross_decomposition/pls_.py -> build/lib.linux-x86_64-3.7/sklearn/cross_decomposition
+    copying sklearn/cross_decomposition/cca_.py -> build/lib.linux-x86_64-3.7/sklearn/cross_decomposition
+    copying sklearn/cross_decomposition/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/cross_decomposition
+    creating build/lib.linux-x86_64-3.7/sklearn/cross_decomposition/tests
+    copying sklearn/cross_decomposition/tests/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/cross_decomposition/tests
+    copying sklearn/cross_decomposition/tests/test_pls.py -> build/lib.linux-x86_64-3.7/sklearn/cross_decomposition/tests
+    creating build/lib.linux-x86_64-3.7/sklearn/feature_selection
+    copying sklearn/feature_selection/rfe.py -> build/lib.linux-x86_64-3.7/sklearn/feature_selection
+    copying sklearn/feature_selection/from_model.py -> build/lib.linux-x86_64-3.7/sklearn/feature_selection
+    copying sklearn/feature_selection/mutual_info_.py -> build/lib.linux-x86_64-3.7/sklearn/feature_selection
+    copying sklearn/feature_selection/base.py -> build/lib.linux-x86_64-3.7/sklearn/feature_selection
+    copying sklearn/feature_selection/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/feature_selection
+    copying sklearn/feature_selection/univariate_selection.py -> build/lib.linux-x86_64-3.7/sklearn/feature_selection
+    copying sklearn/feature_selection/variance_threshold.py -> build/lib.linux-x86_64-3.7/sklearn/feature_selection
+    creating build/lib.linux-x86_64-3.7/sklearn/feature_selection/tests
+    copying sklearn/feature_selection/tests/test_mutual_info.py -> build/lib.linux-x86_64-3.7/sklearn/feature_selection/tests
+    copying sklearn/feature_selection/tests/test_from_model.py -> build/lib.linux-x86_64-3.7/sklearn/feature_selection/tests
+    copying sklearn/feature_selection/tests/test_chi2.py -> build/lib.linux-x86_64-3.7/sklearn/feature_selection/tests
+    copying sklearn/feature_selection/tests/test_feature_select.py -> build/lib.linux-x86_64-3.7/sklearn/feature_selection/tests
+    copying sklearn/feature_selection/tests/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/feature_selection/tests
+    copying sklearn/feature_selection/tests/test_variance_threshold.py -> build/lib.linux-x86_64-3.7/sklearn/feature_selection/tests
+    copying sklearn/feature_selection/tests/test_base.py -> build/lib.linux-x86_64-3.7/sklearn/feature_selection/tests
+    copying sklearn/feature_selection/tests/test_rfe.py -> build/lib.linux-x86_64-3.7/sklearn/feature_selection/tests
+    creating build/lib.linux-x86_64-3.7/sklearn/gaussian_process
+    copying sklearn/gaussian_process/regression_models.py -> build/lib.linux-x86_64-3.7/sklearn/gaussian_process
+    copying sklearn/gaussian_process/gaussian_process.py -> build/lib.linux-x86_64-3.7/sklearn/gaussian_process
+    copying sklearn/gaussian_process/gpr.py -> build/lib.linux-x86_64-3.7/sklearn/gaussian_process
+    copying sklearn/gaussian_process/correlation_models.py -> build/lib.linux-x86_64-3.7/sklearn/gaussian_process
+    copying sklearn/gaussian_process/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/gaussian_process
+    copying sklearn/gaussian_process/gpc.py -> build/lib.linux-x86_64-3.7/sklearn/gaussian_process
+    copying sklearn/gaussian_process/kernels.py -> build/lib.linux-x86_64-3.7/sklearn/gaussian_process
+    creating build/lib.linux-x86_64-3.7/sklearn/gaussian_process/tests
+    copying sklearn/gaussian_process/tests/test_gpc.py -> build/lib.linux-x86_64-3.7/sklearn/gaussian_process/tests
+    copying sklearn/gaussian_process/tests/test_gaussian_process.py -> build/lib.linux-x86_64-3.7/sklearn/gaussian_process/tests
+    copying sklearn/gaussian_process/tests/test_gpr.py -> build/lib.linux-x86_64-3.7/sklearn/gaussian_process/tests
+    copying sklearn/gaussian_process/tests/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/gaussian_process/tests
+    copying sklearn/gaussian_process/tests/test_kernels.py -> build/lib.linux-x86_64-3.7/sklearn/gaussian_process/tests
+    creating build/lib.linux-x86_64-3.7/sklearn/mixture
+    copying sklearn/mixture/gaussian_mixture.py -> build/lib.linux-x86_64-3.7/sklearn/mixture
+    copying sklearn/mixture/bayesian_mixture.py -> build/lib.linux-x86_64-3.7/sklearn/mixture
+    copying sklearn/mixture/dpgmm.py -> build/lib.linux-x86_64-3.7/sklearn/mixture
+    copying sklearn/mixture/gmm.py -> build/lib.linux-x86_64-3.7/sklearn/mixture
+    copying sklearn/mixture/base.py -> build/lib.linux-x86_64-3.7/sklearn/mixture
+    copying sklearn/mixture/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/mixture
+    creating build/lib.linux-x86_64-3.7/sklearn/mixture/tests
+    copying sklearn/mixture/tests/test_bayesian_mixture.py -> build/lib.linux-x86_64-3.7/sklearn/mixture/tests
+    copying sklearn/mixture/tests/test_dpgmm.py -> build/lib.linux-x86_64-3.7/sklearn/mixture/tests
+    copying sklearn/mixture/tests/test_gaussian_mixture.py -> build/lib.linux-x86_64-3.7/sklearn/mixture/tests
+    copying sklearn/mixture/tests/test_gmm.py -> build/lib.linux-x86_64-3.7/sklearn/mixture/tests
+    copying sklearn/mixture/tests/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/mixture/tests
+    creating build/lib.linux-x86_64-3.7/sklearn/model_selection
+    copying sklearn/model_selection/_validation.py -> build/lib.linux-x86_64-3.7/sklearn/model_selection
+    copying sklearn/model_selection/_split.py -> build/lib.linux-x86_64-3.7/sklearn/model_selection
+    copying sklearn/model_selection/_search.py -> build/lib.linux-x86_64-3.7/sklearn/model_selection
+    copying sklearn/model_selection/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/model_selection
+    creating build/lib.linux-x86_64-3.7/sklearn/model_selection/tests
+    copying sklearn/model_selection/tests/common.py -> build/lib.linux-x86_64-3.7/sklearn/model_selection/tests
+    copying sklearn/model_selection/tests/test_split.py -> build/lib.linux-x86_64-3.7/sklearn/model_selection/tests
+    copying sklearn/model_selection/tests/test_search.py -> build/lib.linux-x86_64-3.7/sklearn/model_selection/tests
+    copying sklearn/model_selection/tests/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/model_selection/tests
+    copying sklearn/model_selection/tests/test_validation.py -> build/lib.linux-x86_64-3.7/sklearn/model_selection/tests
+    creating build/lib.linux-x86_64-3.7/sklearn/neural_network
+    copying sklearn/neural_network/rbm.py -> build/lib.linux-x86_64-3.7/sklearn/neural_network
+    copying sklearn/neural_network/_base.py -> build/lib.linux-x86_64-3.7/sklearn/neural_network
+    copying sklearn/neural_network/_stochastic_optimizers.py -> build/lib.linux-x86_64-3.7/sklearn/neural_network
+    copying sklearn/neural_network/multilayer_perceptron.py -> build/lib.linux-x86_64-3.7/sklearn/neural_network
+    copying sklearn/neural_network/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/neural_network
+    creating build/lib.linux-x86_64-3.7/sklearn/neural_network/tests
+    copying sklearn/neural_network/tests/test_mlp.py -> build/lib.linux-x86_64-3.7/sklearn/neural_network/tests
+    copying sklearn/neural_network/tests/test_stochastic_optimizers.py -> build/lib.linux-x86_64-3.7/sklearn/neural_network/tests
+    copying sklearn/neural_network/tests/test_rbm.py -> build/lib.linux-x86_64-3.7/sklearn/neural_network/tests
+    copying sklearn/neural_network/tests/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/neural_network/tests
+    creating build/lib.linux-x86_64-3.7/sklearn/preprocessing
+    copying sklearn/preprocessing/_function_transformer.py -> build/lib.linux-x86_64-3.7/sklearn/preprocessing
+    copying sklearn/preprocessing/imputation.py -> build/lib.linux-x86_64-3.7/sklearn/preprocessing
+    copying sklearn/preprocessing/label.py -> build/lib.linux-x86_64-3.7/sklearn/preprocessing
+    copying sklearn/preprocessing/data.py -> build/lib.linux-x86_64-3.7/sklearn/preprocessing
+    copying sklearn/preprocessing/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/preprocessing
+    creating build/lib.linux-x86_64-3.7/sklearn/preprocessing/tests
+    copying sklearn/preprocessing/tests/test_function_transformer.py -> build/lib.linux-x86_64-3.7/sklearn/preprocessing/tests
+    copying sklearn/preprocessing/tests/test_data.py -> build/lib.linux-x86_64-3.7/sklearn/preprocessing/tests
+    copying sklearn/preprocessing/tests/test_label.py -> build/lib.linux-x86_64-3.7/sklearn/preprocessing/tests
+    copying sklearn/preprocessing/tests/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/preprocessing/tests
+    copying sklearn/preprocessing/tests/test_imputation.py -> build/lib.linux-x86_64-3.7/sklearn/preprocessing/tests
+    creating build/lib.linux-x86_64-3.7/sklearn/semi_supervised
+    copying sklearn/semi_supervised/label_propagation.py -> build/lib.linux-x86_64-3.7/sklearn/semi_supervised
+    copying sklearn/semi_supervised/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/semi_supervised
+    creating build/lib.linux-x86_64-3.7/sklearn/semi_supervised/tests
+    copying sklearn/semi_supervised/tests/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/semi_supervised/tests
+    copying sklearn/semi_supervised/tests/test_label_propagation.py -> build/lib.linux-x86_64-3.7/sklearn/semi_supervised/tests
+    creating build/lib.linux-x86_64-3.7/sklearn/cluster
+    copying sklearn/cluster/_feature_agglomeration.py -> build/lib.linux-x86_64-3.7/sklearn/cluster
+    copying sklearn/cluster/bicluster.py -> build/lib.linux-x86_64-3.7/sklearn/cluster
+    copying sklearn/cluster/affinity_propagation_.py -> build/lib.linux-x86_64-3.7/sklearn/cluster
+    copying sklearn/cluster/mean_shift_.py -> build/lib.linux-x86_64-3.7/sklearn/cluster
+    copying sklearn/cluster/k_means_.py -> build/lib.linux-x86_64-3.7/sklearn/cluster
+    copying sklearn/cluster/hierarchical.py -> build/lib.linux-x86_64-3.7/sklearn/cluster
+    copying sklearn/cluster/birch.py -> build/lib.linux-x86_64-3.7/sklearn/cluster
+    copying sklearn/cluster/dbscan_.py -> build/lib.linux-x86_64-3.7/sklearn/cluster
+    copying sklearn/cluster/spectral.py -> build/lib.linux-x86_64-3.7/sklearn/cluster
+    copying sklearn/cluster/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/cluster
+    copying sklearn/cluster/setup.py -> build/lib.linux-x86_64-3.7/sklearn/cluster
+    creating build/lib.linux-x86_64-3.7/sklearn/cluster/tests
+    copying sklearn/cluster/tests/test_spectral.py -> build/lib.linux-x86_64-3.7/sklearn/cluster/tests
+    copying sklearn/cluster/tests/test_affinity_propagation.py -> build/lib.linux-x86_64-3.7/sklearn/cluster/tests
+    copying sklearn/cluster/tests/common.py -> build/lib.linux-x86_64-3.7/sklearn/cluster/tests
+    copying sklearn/cluster/tests/test_birch.py -> build/lib.linux-x86_64-3.7/sklearn/cluster/tests
+    copying sklearn/cluster/tests/test_bicluster.py -> build/lib.linux-x86_64-3.7/sklearn/cluster/tests
+    copying sklearn/cluster/tests/test_k_means.py -> build/lib.linux-x86_64-3.7/sklearn/cluster/tests
+    copying sklearn/cluster/tests/test_mean_shift.py -> build/lib.linux-x86_64-3.7/sklearn/cluster/tests
+    copying sklearn/cluster/tests/test_dbscan.py -> build/lib.linux-x86_64-3.7/sklearn/cluster/tests
+    copying sklearn/cluster/tests/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/cluster/tests
+    copying sklearn/cluster/tests/test_hierarchical.py -> build/lib.linux-x86_64-3.7/sklearn/cluster/tests
+    creating build/lib.linux-x86_64-3.7/sklearn/datasets
+    copying sklearn/datasets/species_distributions.py -> build/lib.linux-x86_64-3.7/sklearn/datasets
+    copying sklearn/datasets/california_housing.py -> build/lib.linux-x86_64-3.7/sklearn/datasets
+    copying sklearn/datasets/kddcup99.py -> build/lib.linux-x86_64-3.7/sklearn/datasets
+    copying sklearn/datasets/mldata.py -> build/lib.linux-x86_64-3.7/sklearn/datasets
+    copying sklearn/datasets/mlcomp.py -> build/lib.linux-x86_64-3.7/sklearn/datasets
+    copying sklearn/datasets/rcv1.py -> build/lib.linux-x86_64-3.7/sklearn/datasets
+    copying sklearn/datasets/samples_generator.py -> build/lib.linux-x86_64-3.7/sklearn/datasets
+    copying sklearn/datasets/svmlight_format.py -> build/lib.linux-x86_64-3.7/sklearn/datasets
+    copying sklearn/datasets/covtype.py -> build/lib.linux-x86_64-3.7/sklearn/datasets
+    copying sklearn/datasets/base.py -> build/lib.linux-x86_64-3.7/sklearn/datasets
+    copying sklearn/datasets/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/datasets
+    copying sklearn/datasets/lfw.py -> build/lib.linux-x86_64-3.7/sklearn/datasets
+    copying sklearn/datasets/twenty_newsgroups.py -> build/lib.linux-x86_64-3.7/sklearn/datasets
+    copying sklearn/datasets/setup.py -> build/lib.linux-x86_64-3.7/sklearn/datasets
+    copying sklearn/datasets/olivetti_faces.py -> build/lib.linux-x86_64-3.7/sklearn/datasets
+    creating build/lib.linux-x86_64-3.7/sklearn/datasets/tests
+    copying sklearn/datasets/tests/test_kddcup99.py -> build/lib.linux-x86_64-3.7/sklearn/datasets/tests
+    copying sklearn/datasets/tests/test_samples_generator.py -> build/lib.linux-x86_64-3.7/sklearn/datasets/tests
+    copying sklearn/datasets/tests/test_mldata.py -> build/lib.linux-x86_64-3.7/sklearn/datasets/tests
+    copying sklearn/datasets/tests/test_lfw.py -> build/lib.linux-x86_64-3.7/sklearn/datasets/tests
+    copying sklearn/datasets/tests/test_rcv1.py -> build/lib.linux-x86_64-3.7/sklearn/datasets/tests
+    copying sklearn/datasets/tests/test_svmlight_format.py -> build/lib.linux-x86_64-3.7/sklearn/datasets/tests
+    copying sklearn/datasets/tests/test_covtype.py -> build/lib.linux-x86_64-3.7/sklearn/datasets/tests
+    copying sklearn/datasets/tests/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/datasets/tests
+    copying sklearn/datasets/tests/test_base.py -> build/lib.linux-x86_64-3.7/sklearn/datasets/tests
+    copying sklearn/datasets/tests/test_20news.py -> build/lib.linux-x86_64-3.7/sklearn/datasets/tests
+    creating build/lib.linux-x86_64-3.7/sklearn/decomposition
+    copying sklearn/decomposition/online_lda.py -> build/lib.linux-x86_64-3.7/sklearn/decomposition
+    copying sklearn/decomposition/factor_analysis.py -> build/lib.linux-x86_64-3.7/sklearn/decomposition
+    copying sklearn/decomposition/kernel_pca.py -> build/lib.linux-x86_64-3.7/sklearn/decomposition
+    copying sklearn/decomposition/pca.py -> build/lib.linux-x86_64-3.7/sklearn/decomposition
+    copying sklearn/decomposition/fastica_.py -> build/lib.linux-x86_64-3.7/sklearn/decomposition
+    copying sklearn/decomposition/dict_learning.py -> build/lib.linux-x86_64-3.7/sklearn/decomposition
+    copying sklearn/decomposition/base.py -> build/lib.linux-x86_64-3.7/sklearn/decomposition
+    copying sklearn/decomposition/incremental_pca.py -> build/lib.linux-x86_64-3.7/sklearn/decomposition
+    copying sklearn/decomposition/sparse_pca.py -> build/lib.linux-x86_64-3.7/sklearn/decomposition
+    copying sklearn/decomposition/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/decomposition
+    copying sklearn/decomposition/truncated_svd.py -> build/lib.linux-x86_64-3.7/sklearn/decomposition
+    copying sklearn/decomposition/setup.py -> build/lib.linux-x86_64-3.7/sklearn/decomposition
+    copying sklearn/decomposition/nmf.py -> build/lib.linux-x86_64-3.7/sklearn/decomposition
+    creating build/lib.linux-x86_64-3.7/sklearn/decomposition/tests
+    copying sklearn/decomposition/tests/test_sparse_pca.py -> build/lib.linux-x86_64-3.7/sklearn/decomposition/tests
+    copying sklearn/decomposition/tests/test_online_lda.py -> build/lib.linux-x86_64-3.7/sklearn/decomposition/tests
+    copying sklearn/decomposition/tests/test_fastica.py -> build/lib.linux-x86_64-3.7/sklearn/decomposition/tests
+    copying sklearn/decomposition/tests/test_kernel_pca.py -> build/lib.linux-x86_64-3.7/sklearn/decomposition/tests
+    copying sklearn/decomposition/tests/test_factor_analysis.py -> build/lib.linux-x86_64-3.7/sklearn/decomposition/tests
+    copying sklearn/decomposition/tests/test_incremental_pca.py -> build/lib.linux-x86_64-3.7/sklearn/decomposition/tests
+    copying sklearn/decomposition/tests/test_truncated_svd.py -> build/lib.linux-x86_64-3.7/sklearn/decomposition/tests
+    copying sklearn/decomposition/tests/test_nmf.py -> build/lib.linux-x86_64-3.7/sklearn/decomposition/tests
+    copying sklearn/decomposition/tests/test_pca.py -> build/lib.linux-x86_64-3.7/sklearn/decomposition/tests
+    copying sklearn/decomposition/tests/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/decomposition/tests
+    copying sklearn/decomposition/tests/test_dict_learning.py -> build/lib.linux-x86_64-3.7/sklearn/decomposition/tests
+    creating build/lib.linux-x86_64-3.7/sklearn/ensemble
+    copying sklearn/ensemble/forest.py -> build/lib.linux-x86_64-3.7/sklearn/ensemble
+    copying sklearn/ensemble/bagging.py -> build/lib.linux-x86_64-3.7/sklearn/ensemble
+    copying sklearn/ensemble/gradient_boosting.py -> build/lib.linux-x86_64-3.7/sklearn/ensemble
+    copying sklearn/ensemble/partial_dependence.py -> build/lib.linux-x86_64-3.7/sklearn/ensemble
+    copying sklearn/ensemble/weight_boosting.py -> build/lib.linux-x86_64-3.7/sklearn/ensemble
+    copying sklearn/ensemble/voting_classifier.py -> build/lib.linux-x86_64-3.7/sklearn/ensemble
+    copying sklearn/ensemble/base.py -> build/lib.linux-x86_64-3.7/sklearn/ensemble
+    copying sklearn/ensemble/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/ensemble
+    copying sklearn/ensemble/setup.py -> build/lib.linux-x86_64-3.7/sklearn/ensemble
+    copying sklearn/ensemble/iforest.py -> build/lib.linux-x86_64-3.7/sklearn/ensemble
+    creating build/lib.linux-x86_64-3.7/sklearn/ensemble/tests
+    copying sklearn/ensemble/tests/test_gradient_boosting.py -> build/lib.linux-x86_64-3.7/sklearn/ensemble/tests
+    copying sklearn/ensemble/tests/test_iforest.py -> build/lib.linux-x86_64-3.7/sklearn/ensemble/tests
+    copying sklearn/ensemble/tests/test_forest.py -> build/lib.linux-x86_64-3.7/sklearn/ensemble/tests
+    copying sklearn/ensemble/tests/test_gradient_boosting_loss_functions.py -> build/lib.linux-x86_64-3.7/sklearn/ensemble/tests
+    copying sklearn/ensemble/tests/test_bagging.py -> build/lib.linux-x86_64-3.7/sklearn/ensemble/tests
+    copying sklearn/ensemble/tests/test_weight_boosting.py -> build/lib.linux-x86_64-3.7/sklearn/ensemble/tests
+    copying sklearn/ensemble/tests/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/ensemble/tests
+    copying sklearn/ensemble/tests/test_base.py -> build/lib.linux-x86_64-3.7/sklearn/ensemble/tests
+    copying sklearn/ensemble/tests/test_voting_classifier.py -> build/lib.linux-x86_64-3.7/sklearn/ensemble/tests
+    copying sklearn/ensemble/tests/test_partial_dependence.py -> build/lib.linux-x86_64-3.7/sklearn/ensemble/tests
+    creating build/lib.linux-x86_64-3.7/sklearn/externals
+    copying sklearn/externals/funcsigs.py -> build/lib.linux-x86_64-3.7/sklearn/externals
+    copying sklearn/externals/six.py -> build/lib.linux-x86_64-3.7/sklearn/externals
+    copying sklearn/externals/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/externals
+    copying sklearn/externals/setup.py -> build/lib.linux-x86_64-3.7/sklearn/externals
+    copying sklearn/externals/test_externals_setup.py -> build/lib.linux-x86_64-3.7/sklearn/externals
+    creating build/lib.linux-x86_64-3.7/sklearn/externals/joblib
+    copying sklearn/externals/joblib/logger.py -> build/lib.linux-x86_64-3.7/sklearn/externals/joblib
+    copying sklearn/externals/joblib/numpy_pickle.py -> build/lib.linux-x86_64-3.7/sklearn/externals/joblib
+    copying sklearn/externals/joblib/_compat.py -> build/lib.linux-x86_64-3.7/sklearn/externals/joblib
+    copying sklearn/externals/joblib/_multiprocessing_helpers.py -> build/lib.linux-x86_64-3.7/sklearn/externals/joblib
+    copying sklearn/externals/joblib/func_inspect.py -> build/lib.linux-x86_64-3.7/sklearn/externals/joblib
+    copying sklearn/externals/joblib/numpy_pickle_compat.py -> build/lib.linux-x86_64-3.7/sklearn/externals/joblib
+    copying sklearn/externals/joblib/my_exceptions.py -> build/lib.linux-x86_64-3.7/sklearn/externals/joblib
+    copying sklearn/externals/joblib/pool.py -> build/lib.linux-x86_64-3.7/sklearn/externals/joblib
+    copying sklearn/externals/joblib/_parallel_backends.py -> build/lib.linux-x86_64-3.7/sklearn/externals/joblib
+    copying sklearn/externals/joblib/disk.py -> build/lib.linux-x86_64-3.7/sklearn/externals/joblib
+    copying sklearn/externals/joblib/parallel.py -> build/lib.linux-x86_64-3.7/sklearn/externals/joblib
+    copying sklearn/externals/joblib/hashing.py -> build/lib.linux-x86_64-3.7/sklearn/externals/joblib
+    copying sklearn/externals/joblib/backports.py -> build/lib.linux-x86_64-3.7/sklearn/externals/joblib
+    copying sklearn/externals/joblib/format_stack.py -> build/lib.linux-x86_64-3.7/sklearn/externals/joblib
+    copying sklearn/externals/joblib/_memory_helpers.py -> build/lib.linux-x86_64-3.7/sklearn/externals/joblib
+    copying sklearn/externals/joblib/numpy_pickle_utils.py -> build/lib.linux-x86_64-3.7/sklearn/externals/joblib
+    copying sklearn/externals/joblib/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/externals/joblib
+    copying sklearn/externals/joblib/memory.py -> build/lib.linux-x86_64-3.7/sklearn/externals/joblib
+    creating build/lib.linux-x86_64-3.7/sklearn/feature_extraction
+    copying sklearn/feature_extraction/image.py -> build/lib.linux-x86_64-3.7/sklearn/feature_extraction
+    copying sklearn/feature_extraction/text.py -> build/lib.linux-x86_64-3.7/sklearn/feature_extraction
+    copying sklearn/feature_extraction/stop_words.py -> build/lib.linux-x86_64-3.7/sklearn/feature_extraction
+    copying sklearn/feature_extraction/hashing.py -> build/lib.linux-x86_64-3.7/sklearn/feature_extraction
+    copying sklearn/feature_extraction/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/feature_extraction
+    copying sklearn/feature_extraction/dict_vectorizer.py -> build/lib.linux-x86_64-3.7/sklearn/feature_extraction
+    copying sklearn/feature_extraction/setup.py -> build/lib.linux-x86_64-3.7/sklearn/feature_extraction
+    creating build/lib.linux-x86_64-3.7/sklearn/feature_extraction/tests
+    copying sklearn/feature_extraction/tests/test_feature_hasher.py -> build/lib.linux-x86_64-3.7/sklearn/feature_extraction/tests
+    copying sklearn/feature_extraction/tests/test_dict_vectorizer.py -> build/lib.linux-x86_64-3.7/sklearn/feature_extraction/tests
+    copying sklearn/feature_extraction/tests/test_image.py -> build/lib.linux-x86_64-3.7/sklearn/feature_extraction/tests
+    copying sklearn/feature_extraction/tests/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/feature_extraction/tests
+    copying sklearn/feature_extraction/tests/test_text.py -> build/lib.linux-x86_64-3.7/sklearn/feature_extraction/tests
+    creating build/lib.linux-x86_64-3.7/sklearn/manifold
+    copying sklearn/manifold/spectral_embedding_.py -> build/lib.linux-x86_64-3.7/sklearn/manifold
+    copying sklearn/manifold/locally_linear.py -> build/lib.linux-x86_64-3.7/sklearn/manifold
+    copying sklearn/manifold/isomap.py -> build/lib.linux-x86_64-3.7/sklearn/manifold
+    copying sklearn/manifold/mds.py -> build/lib.linux-x86_64-3.7/sklearn/manifold
+    copying sklearn/manifold/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/manifold
+    copying sklearn/manifold/setup.py -> build/lib.linux-x86_64-3.7/sklearn/manifold
+    copying sklearn/manifold/t_sne.py -> build/lib.linux-x86_64-3.7/sklearn/manifold
+    creating build/lib.linux-x86_64-3.7/sklearn/manifold/tests
+    copying sklearn/manifold/tests/test_t_sne.py -> build/lib.linux-x86_64-3.7/sklearn/manifold/tests
+    copying sklearn/manifold/tests/test_spectral_embedding.py -> build/lib.linux-x86_64-3.7/sklearn/manifold/tests
+    copying sklearn/manifold/tests/test_mds.py -> build/lib.linux-x86_64-3.7/sklearn/manifold/tests
+    copying sklearn/manifold/tests/test_locally_linear.py -> build/lib.linux-x86_64-3.7/sklearn/manifold/tests
+    copying sklearn/manifold/tests/test_isomap.py -> build/lib.linux-x86_64-3.7/sklearn/manifold/tests
+    copying sklearn/manifold/tests/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/manifold/tests
+    creating build/lib.linux-x86_64-3.7/sklearn/metrics
+    copying sklearn/metrics/regression.py -> build/lib.linux-x86_64-3.7/sklearn/metrics
+    copying sklearn/metrics/scorer.py -> build/lib.linux-x86_64-3.7/sklearn/metrics
+    copying sklearn/metrics/classification.py -> build/lib.linux-x86_64-3.7/sklearn/metrics
+    copying sklearn/metrics/pairwise.py -> build/lib.linux-x86_64-3.7/sklearn/metrics
+    copying sklearn/metrics/ranking.py -> build/lib.linux-x86_64-3.7/sklearn/metrics
+    copying sklearn/metrics/base.py -> build/lib.linux-x86_64-3.7/sklearn/metrics
+    copying sklearn/metrics/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/metrics
+    copying sklearn/metrics/setup.py -> build/lib.linux-x86_64-3.7/sklearn/metrics
+    creating build/lib.linux-x86_64-3.7/sklearn/metrics/tests
+    copying sklearn/metrics/tests/test_classification.py -> build/lib.linux-x86_64-3.7/sklearn/metrics/tests
+    copying sklearn/metrics/tests/test_regression.py -> build/lib.linux-x86_64-3.7/sklearn/metrics/tests
+    copying sklearn/metrics/tests/test_score_objects.py -> build/lib.linux-x86_64-3.7/sklearn/metrics/tests
+    copying sklearn/metrics/tests/test_common.py -> build/lib.linux-x86_64-3.7/sklearn/metrics/tests
+    copying sklearn/metrics/tests/test_ranking.py -> build/lib.linux-x86_64-3.7/sklearn/metrics/tests
+    copying sklearn/metrics/tests/test_pairwise.py -> build/lib.linux-x86_64-3.7/sklearn/metrics/tests
+    copying sklearn/metrics/tests/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/metrics/tests
+    creating build/lib.linux-x86_64-3.7/sklearn/metrics/cluster
+    copying sklearn/metrics/cluster/supervised.py -> build/lib.linux-x86_64-3.7/sklearn/metrics/cluster
+    copying sklearn/metrics/cluster/bicluster.py -> build/lib.linux-x86_64-3.7/sklearn/metrics/cluster
+    copying sklearn/metrics/cluster/unsupervised.py -> build/lib.linux-x86_64-3.7/sklearn/metrics/cluster
+    copying sklearn/metrics/cluster/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/metrics/cluster
+    copying sklearn/metrics/cluster/setup.py -> build/lib.linux-x86_64-3.7/sklearn/metrics/cluster
+    creating build/lib.linux-x86_64-3.7/sklearn/metrics/cluster/tests
+    copying sklearn/metrics/cluster/tests/test_unsupervised.py -> build/lib.linux-x86_64-3.7/sklearn/metrics/cluster/tests
+    copying sklearn/metrics/cluster/tests/test_bicluster.py -> build/lib.linux-x86_64-3.7/sklearn/metrics/cluster/tests
+    copying sklearn/metrics/cluster/tests/test_supervised.py -> build/lib.linux-x86_64-3.7/sklearn/metrics/cluster/tests
+    copying sklearn/metrics/cluster/tests/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/metrics/cluster/tests
+    creating build/lib.linux-x86_64-3.7/sklearn/neighbors
+    copying sklearn/neighbors/nearest_centroid.py -> build/lib.linux-x86_64-3.7/sklearn/neighbors
+    copying sklearn/neighbors/graph.py -> build/lib.linux-x86_64-3.7/sklearn/neighbors
+    copying sklearn/neighbors/regression.py -> build/lib.linux-x86_64-3.7/sklearn/neighbors
+    copying sklearn/neighbors/classification.py -> build/lib.linux-x86_64-3.7/sklearn/neighbors
+    copying sklearn/neighbors/unsupervised.py -> build/lib.linux-x86_64-3.7/sklearn/neighbors
+    copying sklearn/neighbors/lof.py -> build/lib.linux-x86_64-3.7/sklearn/neighbors
+    copying sklearn/neighbors/approximate.py -> build/lib.linux-x86_64-3.7/sklearn/neighbors
+    copying sklearn/neighbors/kde.py -> build/lib.linux-x86_64-3.7/sklearn/neighbors
+    copying sklearn/neighbors/base.py -> build/lib.linux-x86_64-3.7/sklearn/neighbors
+    copying sklearn/neighbors/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/neighbors
+    copying sklearn/neighbors/setup.py -> build/lib.linux-x86_64-3.7/sklearn/neighbors
+    creating build/lib.linux-x86_64-3.7/sklearn/neighbors/tests
+    copying sklearn/neighbors/tests/test_nearest_centroid.py -> build/lib.linux-x86_64-3.7/sklearn/neighbors/tests
+    copying sklearn/neighbors/tests/test_dist_metrics.py -> build/lib.linux-x86_64-3.7/sklearn/neighbors/tests
+    copying sklearn/neighbors/tests/test_approximate.py -> build/lib.linux-x86_64-3.7/sklearn/neighbors/tests
+    copying sklearn/neighbors/tests/test_quad_tree.py -> build/lib.linux-x86_64-3.7/sklearn/neighbors/tests
+    copying sklearn/neighbors/tests/test_ball_tree.py -> build/lib.linux-x86_64-3.7/sklearn/neighbors/tests
+    copying sklearn/neighbors/tests/test_lof.py -> build/lib.linux-x86_64-3.7/sklearn/neighbors/tests
+    copying sklearn/neighbors/tests/test_neighbors.py -> build/lib.linux-x86_64-3.7/sklearn/neighbors/tests
+    copying sklearn/neighbors/tests/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/neighbors/tests
+    copying sklearn/neighbors/tests/test_kde.py -> build/lib.linux-x86_64-3.7/sklearn/neighbors/tests
+    copying sklearn/neighbors/tests/test_kd_tree.py -> build/lib.linux-x86_64-3.7/sklearn/neighbors/tests
+    creating build/lib.linux-x86_64-3.7/sklearn/tree
+    copying sklearn/tree/export.py -> build/lib.linux-x86_64-3.7/sklearn/tree
+    copying sklearn/tree/tree.py -> build/lib.linux-x86_64-3.7/sklearn/tree
+    copying sklearn/tree/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/tree
+    copying sklearn/tree/setup.py -> build/lib.linux-x86_64-3.7/sklearn/tree
+    creating build/lib.linux-x86_64-3.7/sklearn/tree/tests
+    copying sklearn/tree/tests/test_tree.py -> build/lib.linux-x86_64-3.7/sklearn/tree/tests
+    copying sklearn/tree/tests/test_export.py -> build/lib.linux-x86_64-3.7/sklearn/tree/tests
+    copying sklearn/tree/tests/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/tree/tests
+    creating build/lib.linux-x86_64-3.7/sklearn/svm
+    copying sklearn/svm/classes.py -> build/lib.linux-x86_64-3.7/sklearn/svm
+    copying sklearn/svm/base.py -> build/lib.linux-x86_64-3.7/sklearn/svm
+    copying sklearn/svm/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/svm
+    copying sklearn/svm/bounds.py -> build/lib.linux-x86_64-3.7/sklearn/svm
+    copying sklearn/svm/setup.py -> build/lib.linux-x86_64-3.7/sklearn/svm
+    creating build/lib.linux-x86_64-3.7/sklearn/svm/tests
+    copying sklearn/svm/tests/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/svm/tests
+    copying sklearn/svm/tests/test_svm.py -> build/lib.linux-x86_64-3.7/sklearn/svm/tests
+    copying sklearn/svm/tests/test_sparse.py -> build/lib.linux-x86_64-3.7/sklearn/svm/tests
+    copying sklearn/svm/tests/test_bounds.py -> build/lib.linux-x86_64-3.7/sklearn/svm/tests
+    creating build/lib.linux-x86_64-3.7/sklearn/linear_model
+    copying sklearn/linear_model/coordinate_descent.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model
+    copying sklearn/linear_model/huber.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model
+    copying sklearn/linear_model/theil_sen.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model
+    copying sklearn/linear_model/randomized_l1.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model
+    copying sklearn/linear_model/ridge.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model
+    copying sklearn/linear_model/perceptron.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model
+    copying sklearn/linear_model/logistic.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model
+    copying sklearn/linear_model/sag.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model
+    copying sklearn/linear_model/omp.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model
+    copying sklearn/linear_model/passive_aggressive.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model
+    copying sklearn/linear_model/least_angle.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model
+    copying sklearn/linear_model/stochastic_gradient.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model
+    copying sklearn/linear_model/bayes.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model
+    copying sklearn/linear_model/base.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model
+    copying sklearn/linear_model/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model
+    copying sklearn/linear_model/setup.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model
+    copying sklearn/linear_model/ransac.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model
+    creating build/lib.linux-x86_64-3.7/sklearn/linear_model/tests
+    copying sklearn/linear_model/tests/test_sparse_coordinate_descent.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model/tests
+    copying sklearn/linear_model/tests/test_sag.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model/tests
+    copying sklearn/linear_model/tests/test_theil_sen.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model/tests
+    copying sklearn/linear_model/tests/test_ridge.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model/tests
+    copying sklearn/linear_model/tests/test_logistic.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model/tests
+    copying sklearn/linear_model/tests/test_least_angle.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model/tests
+    copying sklearn/linear_model/tests/test_perceptron.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model/tests
+    copying sklearn/linear_model/tests/test_sgd.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model/tests
+    copying sklearn/linear_model/tests/test_coordinate_descent.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model/tests
+    copying sklearn/linear_model/tests/test_passive_aggressive.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model/tests
+    copying sklearn/linear_model/tests/test_bayes.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model/tests
+    copying sklearn/linear_model/tests/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model/tests
+    copying sklearn/linear_model/tests/test_huber.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model/tests
+    copying sklearn/linear_model/tests/test_omp.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model/tests
+    copying sklearn/linear_model/tests/test_randomized_l1.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model/tests
+    copying sklearn/linear_model/tests/test_base.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model/tests
+    copying sklearn/linear_model/tests/test_ransac.py -> build/lib.linux-x86_64-3.7/sklearn/linear_model/tests
+    creating build/lib.linux-x86_64-3.7/sklearn/utils
+    copying sklearn/utils/multiclass.py -> build/lib.linux-x86_64-3.7/sklearn/utils
+    copying sklearn/utils/graph.py -> build/lib.linux-x86_64-3.7/sklearn/utils
+    copying sklearn/utils/random.py -> build/lib.linux-x86_64-3.7/sklearn/utils
+    copying sklearn/utils/linear_assignment_.py -> build/lib.linux-x86_64-3.7/sklearn/utils
+    copying sklearn/utils/sparsefuncs.py -> build/lib.linux-x86_64-3.7/sklearn/utils
+    copying sklearn/utils/deprecation.py -> build/lib.linux-x86_64-3.7/sklearn/utils
+    copying sklearn/utils/estimator_checks.py -> build/lib.linux-x86_64-3.7/sklearn/utils
+    copying sklearn/utils/mocking.py -> build/lib.linux-x86_64-3.7/sklearn/utils
+    copying sklearn/utils/testing.py -> build/lib.linux-x86_64-3.7/sklearn/utils
+    copying sklearn/utils/arpack.py -> build/lib.linux-x86_64-3.7/sklearn/utils
+    copying sklearn/utils/class_weight.py -> build/lib.linux-x86_64-3.7/sklearn/utils
+    copying sklearn/utils/extmath.py -> build/lib.linux-x86_64-3.7/sklearn/utils
+    copying sklearn/utils/fixes.py -> build/lib.linux-x86_64-3.7/sklearn/utils
+    copying sklearn/utils/validation.py -> build/lib.linux-x86_64-3.7/sklearn/utils
+    copying sklearn/utils/optimize.py -> build/lib.linux-x86_64-3.7/sklearn/utils
+    copying sklearn/utils/metaestimators.py -> build/lib.linux-x86_64-3.7/sklearn/utils
+    copying sklearn/utils/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/utils
+    copying sklearn/utils/bench.py -> build/lib.linux-x86_64-3.7/sklearn/utils
+    copying sklearn/utils/setup.py -> build/lib.linux-x86_64-3.7/sklearn/utils
+    copying sklearn/utils/stats.py -> build/lib.linux-x86_64-3.7/sklearn/utils
+    copying sklearn/utils/_scipy_sparse_lsqr_backport.py -> build/lib.linux-x86_64-3.7/sklearn/utils
+    creating build/lib.linux-x86_64-3.7/sklearn/utils/sparsetools
+    copying sklearn/utils/sparsetools/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/utils/sparsetools
+    copying sklearn/utils/sparsetools/setup.py -> build/lib.linux-x86_64-3.7/sklearn/utils/sparsetools
+    creating build/lib.linux-x86_64-3.7/sklearn/utils/sparsetools/tests
+    copying sklearn/utils/sparsetools/tests/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/utils/sparsetools/tests
+    creating build/lib.linux-x86_64-3.7/sklearn/utils/tests
+    copying sklearn/utils/tests/test_fixes.py -> build/lib.linux-x86_64-3.7/sklearn/utils/tests
+    copying sklearn/utils/tests/test_bench.py -> build/lib.linux-x86_64-3.7/sklearn/utils/tests
+    copying sklearn/utils/tests/test_stats.py -> build/lib.linux-x86_64-3.7/sklearn/utils/tests
+    copying sklearn/utils/tests/test_estimator_checks.py -> build/lib.linux-x86_64-3.7/sklearn/utils/tests
+    copying sklearn/utils/tests/test_deprecation.py -> build/lib.linux-x86_64-3.7/sklearn/utils/tests
+    copying sklearn/utils/tests/test_murmurhash.py -> build/lib.linux-x86_64-3.7/sklearn/utils/tests
+    copying sklearn/utils/tests/test_class_weight.py -> build/lib.linux-x86_64-3.7/sklearn/utils/tests
+    copying sklearn/utils/tests/test_linear_assignment.py -> build/lib.linux-x86_64-3.7/sklearn/utils/tests
+    copying sklearn/utils/tests/test_testing.py -> build/lib.linux-x86_64-3.7/sklearn/utils/tests
+    copying sklearn/utils/tests/test_graph.py -> build/lib.linux-x86_64-3.7/sklearn/utils/tests
+    copying sklearn/utils/tests/test_metaestimators.py -> build/lib.linux-x86_64-3.7/sklearn/utils/tests
+    copying sklearn/utils/tests/test_seq_dataset.py -> build/lib.linux-x86_64-3.7/sklearn/utils/tests
+    copying sklearn/utils/tests/test_random.py -> build/lib.linux-x86_64-3.7/sklearn/utils/tests
+    copying sklearn/utils/tests/test_sparsefuncs.py -> build/lib.linux-x86_64-3.7/sklearn/utils/tests
+    copying sklearn/utils/tests/test_fast_dict.py -> build/lib.linux-x86_64-3.7/sklearn/utils/tests
+    copying sklearn/utils/tests/test_extmath.py -> build/lib.linux-x86_64-3.7/sklearn/utils/tests
+    copying sklearn/utils/tests/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/utils/tests
+    copying sklearn/utils/tests/test_optimize.py -> build/lib.linux-x86_64-3.7/sklearn/utils/tests
+    copying sklearn/utils/tests/test_utils.py -> build/lib.linux-x86_64-3.7/sklearn/utils/tests
+    copying sklearn/utils/tests/test_shortest_path.py -> build/lib.linux-x86_64-3.7/sklearn/utils/tests
+    copying sklearn/utils/tests/test_validation.py -> build/lib.linux-x86_64-3.7/sklearn/utils/tests
+    copying sklearn/utils/tests/test_multiclass.py -> build/lib.linux-x86_64-3.7/sklearn/utils/tests
+    creating build/lib.linux-x86_64-3.7/sklearn/tests
+    copying sklearn/tests/test_kernel_ridge.py -> build/lib.linux-x86_64-3.7/sklearn/tests
+    copying sklearn/tests/test_multioutput.py -> build/lib.linux-x86_64-3.7/sklearn/tests
+    copying sklearn/tests/test_kernel_approximation.py -> build/lib.linux-x86_64-3.7/sklearn/tests
+    copying sklearn/tests/test_grid_search.py -> build/lib.linux-x86_64-3.7/sklearn/tests
+    copying sklearn/tests/test_docstring_parameters.py -> build/lib.linux-x86_64-3.7/sklearn/tests
+    copying sklearn/tests/test_common.py -> build/lib.linux-x86_64-3.7/sklearn/tests
+    copying sklearn/tests/test_check_build.py -> build/lib.linux-x86_64-3.7/sklearn/tests
+    copying sklearn/tests/test_pipeline.py -> build/lib.linux-x86_64-3.7/sklearn/tests
+    copying sklearn/tests/test_learning_curve.py -> build/lib.linux-x86_64-3.7/sklearn/tests
+    copying sklearn/tests/test_metaestimators.py -> build/lib.linux-x86_64-3.7/sklearn/tests
+    copying sklearn/tests/test_discriminant_analysis.py -> build/lib.linux-x86_64-3.7/sklearn/tests
+    copying sklearn/tests/test_naive_bayes.py -> build/lib.linux-x86_64-3.7/sklearn/tests
+    copying sklearn/tests/test_random_projection.py -> build/lib.linux-x86_64-3.7/sklearn/tests
+    copying sklearn/tests/__init__.py -> build/lib.linux-x86_64-3.7/sklearn/tests
+    copying sklearn/tests/test_config.py -> build/lib.linux-x86_64-3.7/sklearn/tests
+    copying sklearn/tests/test_calibration.py -> build/lib.linux-x86_64-3.7/sklearn/tests
+    copying sklearn/tests/test_init.py -> build/lib.linux-x86_64-3.7/sklearn/tests
+    copying sklearn/tests/test_base.py -> build/lib.linux-x86_64-3.7/sklearn/tests
+    copying sklearn/tests/test_isotonic.py -> build/lib.linux-x86_64-3.7/sklearn/tests
+    copying sklearn/tests/test_multiclass.py -> build/lib.linux-x86_64-3.7/sklearn/tests
+    copying sklearn/tests/test_dummy.py -> build/lib.linux-x86_64-3.7/sklearn/tests
+    copying sklearn/tests/test_cross_validation.py -> build/lib.linux-x86_64-3.7/sklearn/tests
+    running build_clib
+    customize UnixCCompiler
+    customize UnixCCompiler using build_clib
+    building 'libsvm-skl' library
+    compiling C++ sources
+    C compiler: g++ -pthread -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -fPIC
+    
+    creating build/temp.linux-x86_64-3.7
+    creating build/temp.linux-x86_64-3.7/sklearn
+    creating build/temp.linux-x86_64-3.7/sklearn/svm
+    creating build/temp.linux-x86_64-3.7/sklearn/svm/src
+    creating build/temp.linux-x86_64-3.7/sklearn/svm/src/libsvm
+    compile options: '-I/home/travis/virtualenv/python3.7.1/lib/python3.7/site-packages/numpy/core/include -c'
+    g++: sklearn/svm/src/libsvm/libsvm_template.cpp
+    ar: adding 1 object files to build/temp.linux-x86_64-3.7/liblibsvm-skl.a
+    building 'cblas' library
+    compiling C sources
+    C compiler: gcc -pthread -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -fPIC
+    
+    creating build/temp.linux-x86_64-3.7/sklearn/src
+    creating build/temp.linux-x86_64-3.7/sklearn/src/cblas
+    compile options: '-I/home/travis/virtualenv/python3.7.1/lib/python3.7/site-packages/numpy/core/include -c'
+    gcc: sklearn/src/cblas/ATL_drefasum.c
+    gcc: sklearn/src/cblas/ATL_drefger.c
+    gcc: sklearn/src/cblas/ATL_drefrot.c
+    gcc: sklearn/src/cblas/ATL_drefcopy.c
+    gcc: sklearn/src/cblas/ATL_drefgemv.c
+    gcc: sklearn/src/cblas/ATL_drefrotg.c
+    gcc: sklearn/src/cblas/ATL_drefgemvN.c
+    gcc: sklearn/src/cblas/ATL_dsrefdot.c
+    gcc: sklearn/src/cblas/ATL_drefgemvT.c
+    gcc: sklearn/src/cblas/ATL_srefasum.c
+    gcc: sklearn/src/cblas/ATL_srefcopy.c
+    gcc: sklearn/src/cblas/ATL_srefnrm2.c
+    gcc: sklearn/src/cblas/ATL_srefgemv.c
+    gcc: sklearn/src/cblas/ATL_srefrot.c
+    gcc: sklearn/src/cblas/ATL_srefgemvN.c
+    gcc: sklearn/src/cblas/ATL_srefrotg.c
+    gcc: sklearn/src/cblas/ATL_srefgemvT.c
+    gcc: sklearn/src/cblas/cblas_dasum.c
+    gcc: sklearn/src/cblas/ATL_srefger.c
+    In file included from sklearn/src/cblas/cblas_dasum.c:32:0:
+    sklearn/src/cblas/atlas_misc.h:393:12: warning: ‘ATL_AlignOffset’ defined but not used [-Wunused-function]
+     static int ATL_AlignOffset
+                ^
+    sklearn/src/cblas/atlas_misc.h:409:14: warning: ‘ATL_Align2Ptr’ defined but not used [-Wunused-function]
+     static void *ATL_Align2Ptr(const void *pu, const void *pA)
+                  ^
+    gcc: sklearn/src/cblas/cblas_daxpy.c
+    gcc: sklearn/src/cblas/cblas_dcopy.c
+    gcc: sklearn/src/cblas/cblas_drot.c
+    In file included from sklearn/src/cblas/atlas_level1.h:37:0,
+                     from sklearn/src/cblas/cblas_dcopy.c:36:
+    sklearn/src/cblas/cblas_dcopy.c: In function ‘cblas_dcopy’:
+    sklearn/src/cblas/atlas_refalias1.h:25:24: warning: implicit declaration of function ‘ATL_drefcopy’ [-Wimplicit-function-declaration]
+        #define ATL_dcopy   ATL_drefcopy
+                            ^
+    sklearn/src/cblas/cblas_dcopy.c:46:24: note: in expansion of macro ‘ATL_dcopy’
+              if (incY < 0) ATL_dcopy(N, X, -incX, Y, -incY);
+                            ^
+    In file included from sklearn/src/cblas/cblas_dcopy.c:32:0:
+    sklearn/src/cblas/cblas_dcopy.c: At top level:
+    sklearn/src/cblas/atlas_misc.h:393:12: warning: ‘ATL_AlignOffset’ defined but not used [-Wunused-function]
+     static int ATL_AlignOffset
+                ^
+    sklearn/src/cblas/atlas_misc.h:409:14: warning: ‘ATL_Align2Ptr’ defined but not used [-Wunused-function]
+     static void *ATL_Align2Ptr(const void *pu, const void *pA)
+                  ^
+    gcc: sklearn/src/cblas/cblas_ddot.c
+    In file included from sklearn/src/cblas/cblas_drot.c:32:0:
+    sklearn/src/cblas/atlas_misc.h:393:12: warning: ‘ATL_AlignOffset’ defined but not used [-Wunused-function]
+     static int ATL_AlignOffset
+                ^
+    sklearn/src/cblas/atlas_misc.h:409:14: warning: ‘ATL_Align2Ptr’ defined but not used [-Wunused-function]
+     static void *ATL_Align2Ptr(const void *pu, const void *pA)
+                  ^
+    gcc: sklearn/src/cblas/cblas_drotg.c
+    In file included from sklearn/src/cblas/cblas_drotg.c:32:0:
+    sklearn/src/cblas/atlas_misc.h:393:12: warning: ‘ATL_AlignOffset’ defined but not used [-Wunused-function]
+     static int ATL_AlignOffset
+                ^
+    sklearn/src/cblas/atlas_misc.h:409:14: warning: ‘ATL_Align2Ptr’ defined but not used [-Wunused-function]
+     static void *ATL_Align2Ptr(const void *pu, const void *pA)
+                  ^
+    gcc: sklearn/src/cblas/cblas_dscal.c
+    gcc: sklearn/src/cblas/cblas_dgemv.c
+    gcc: sklearn/src/cblas/cblas_errprn.c
+    sklearn/src/cblas/cblas_dgemv.c: In function ‘cblas_dgemv’:
+    sklearn/src/cblas/cblas_dgemv.c:79:7: warning: implicit declaration of function ‘cblas_xerbla’ [-Wimplicit-function-declaration]
+           cblas_xerbla(info, "cblas_dgemv", "");
+           ^
+    In file included from sklearn/src/cblas/cblas_dgemv.c:32:0:
+    sklearn/src/cblas/cblas_dgemv.c: At top level:
+    sklearn/src/cblas/atlas_misc.h:393:12: warning: ‘ATL_AlignOffset’ defined but not used [-Wunused-function]
+     static int ATL_AlignOffset
+                ^
+    sklearn/src/cblas/atlas_misc.h:409:14: warning: ‘ATL_Align2Ptr’ defined but not used [-Wunused-function]
+     static void *ATL_Align2Ptr(const void *pu, const void *pA)
+                  ^
+    gcc: sklearn/src/cblas/cblas_dger.c
+    gcc: sklearn/src/cblas/cblas_sasum.c
+    sklearn/src/cblas/cblas_dger.c: In function ‘cblas_dger’:
+    sklearn/src/cblas/cblas_dger.c:73:7: warning: implicit declaration of function ‘cblas_xerbla’ [-Wimplicit-function-declaration]
+           cblas_xerbla(info, "cblas_dger", "");
+           ^
+    In file included from sklearn/src/cblas/cblas_dger.c:32:0:
+    sklearn/src/cblas/cblas_dger.c: At top level:
+    sklearn/src/cblas/atlas_misc.h:393:12: warning: ‘ATL_AlignOffset’ defined but not used [-Wunused-function]
+     static int ATL_AlignOffset
+                ^
+    sklearn/src/cblas/atlas_misc.h:409:14: warning: ‘ATL_Align2Ptr’ defined but not used [-Wunused-function]
+     static void *ATL_Align2Ptr(const void *pu, const void *pA)
+                  ^
+    gcc: sklearn/src/cblas/cblas_dnrm2.c
+    In file included from sklearn/src/cblas/cblas_sasum.c:32:0:
+    sklearn/src/cblas/atlas_misc.h:393:12: warning: ‘ATL_AlignOffset’ defined but not used [-Wunused-function]
+     static int ATL_AlignOffset
+                ^
+    sklearn/src/cblas/atlas_misc.h:409:14: warning: ‘ATL_Align2Ptr’ defined but not used [-Wunused-function]
+     static void *ATL_Align2Ptr(const void *pu, const void *pA)
+                  ^
+    gcc: sklearn/src/cblas/cblas_saxpy.c
+    gcc: sklearn/src/cblas/cblas_scopy.c
+    gcc: sklearn/src/cblas/cblas_snrm2.c
+    In file included from sklearn/src/cblas/cblas_snrm2.c:32:0:
+    sklearn/src/cblas/atlas_misc.h:393:12: warning: ‘ATL_AlignOffset’ defined but not used [-Wunused-function]
+     static int ATL_AlignOffset
+                ^
+    sklearn/src/cblas/atlas_misc.h:409:14: warning: ‘ATL_Align2Ptr’ defined but not used [-Wunused-function]
+     static void *ATL_Align2Ptr(const void *pu, const void *pA)
+                  ^
+    gcc: sklearn/src/cblas/cblas_srot.c
+    In file included from sklearn/src/cblas/atlas_level1.h:37:0,
+                     from sklearn/src/cblas/cblas_scopy.c:36:
+    sklearn/src/cblas/cblas_scopy.c: In function ‘cblas_scopy’:
+    sklearn/src/cblas/atlas_refalias1.h:12:24: warning: implicit declaration of function ‘ATL_srefcopy’ [-Wimplicit-function-declaration]
+        #define ATL_scopy   ATL_srefcopy
+                            ^
+    sklearn/src/cblas/cblas_scopy.c:46:24: note: in expansion of macro ‘ATL_scopy’
+              if (incY < 0) ATL_scopy(N, X, -incX, Y, -incY);
+                            ^
+    In file included from sklearn/src/cblas/cblas_scopy.c:32:0:
+    sklearn/src/cblas/cblas_scopy.c: At top level:
+    sklearn/src/cblas/atlas_misc.h:393:12: warning: ‘ATL_AlignOffset’ defined but not used [-Wunused-function]
+     static int ATL_AlignOffset
+                ^
+    sklearn/src/cblas/atlas_misc.h:409:14: warning: ‘ATL_Align2Ptr’ defined but not used [-Wunused-function]
+     static void *ATL_Align2Ptr(const void *pu, const void *pA)
+                  ^
+    gcc: sklearn/src/cblas/cblas_sdot.c
+    In file included from sklearn/src/cblas/cblas_srot.c:32:0:
+    sklearn/src/cblas/atlas_misc.h:393:12: warning: ‘ATL_AlignOffset’ defined but not used [-Wunused-function]
+     static int ATL_AlignOffset
+                ^
+    sklearn/src/cblas/atlas_misc.h:409:14: warning: ‘ATL_Align2Ptr’ defined but not used [-Wunused-function]
+     static void *ATL_Align2Ptr(const void *pu, const void *pA)
+                  ^
+    gcc: sklearn/src/cblas/cblas_srotg.c
+    gcc: sklearn/src/cblas/cblas_sgemv.c
+    In file included from sklearn/src/cblas/cblas_srotg.c:32:0:
+    sklearn/src/cblas/atlas_misc.h:393:12: warning: ‘ATL_AlignOffset’ defined but not used [-Wunused-function]
+     static int ATL_AlignOffset
+                ^
+    sklearn/src/cblas/atlas_misc.h:409:14: warning: ‘ATL_Align2Ptr’ defined but not used [-Wunused-function]
+     static void *ATL_Align2Ptr(const void *pu, const void *pA)
+                  ^
+    gcc: sklearn/src/cblas/cblas_sscal.c
+    sklearn/src/cblas/cblas_sgemv.c: In function ‘cblas_sgemv’:
+    sklearn/src/cblas/cblas_sgemv.c:79:7: warning: implicit declaration of function ‘cblas_xerbla’ [-Wimplicit-function-declaration]
+           cblas_xerbla(info, "cblas_sgemv", "");
+           ^
+    In file included from sklearn/src/cblas/cblas_sgemv.c:32:0:
+    sklearn/src/cblas/cblas_sgemv.c: At top level:
+    sklearn/src/cblas/atlas_misc.h:393:12: warning: ‘ATL_AlignOffset’ defined but not used [-Wunused-function]
+     static int ATL_AlignOffset
+                ^
+    sklearn/src/cblas/atlas_misc.h:409:14: warning: ‘ATL_Align2Ptr’ defined but not used [-Wunused-function]
+     static void *ATL_Align2Ptr(const void *pu, const void *pA)
+                  ^
+    gcc: sklearn/src/cblas/cblas_sger.c
+    gcc: sklearn/src/cblas/cblas_xerbla.c
+    sklearn/src/cblas/cblas_sger.c: In function ‘cblas_sger’:
+    sklearn/src/cblas/cblas_sger.c:73:7: warning: implicit declaration of function ‘cblas_xerbla’ [-Wimplicit-function-declaration]
+           cblas_xerbla(info, "cblas_sger", "");
+           ^
+    In file included from sklearn/src/cblas/cblas_sger.c:32:0:
+    sklearn/src/cblas/cblas_sger.c: At top level:
+    sklearn/src/cblas/atlas_misc.h:393:12: warning: ‘ATL_AlignOffset’ defined but not used [-Wunused-function]
+     static int ATL_AlignOffset
+                ^
+    sklearn/src/cblas/atlas_misc.h:409:14: warning: ‘ATL_Align2Ptr’ defined but not used [-Wunused-function]
+     static void *ATL_Align2Ptr(const void *pu, const void *pA)
+                  ^
+    sklearn/src/cblas/cblas_xerbla.c: In function ‘cblas_xerbla’:
+    sklearn/src/cblas/cblas_xerbla.c:52:4: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+        exit(-1);
+        ^
+    sklearn/src/cblas/cblas_xerbla.c:52:4: warning: incompatible implicit declaration of built-in function ‘exit’
+    sklearn/src/cblas/cblas_xerbla.c:52:4: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+    ar: adding 40 object files to build/temp.linux-x86_64-3.7/libcblas.a
+    running build_ext
+    customize UnixCCompiler
+    customize UnixCCompiler using build_ext
+    customize UnixCCompiler
+    customize UnixCCompiler using build_ext
+    building 'sklearn.__check_build._check_build' extension
+    compiling C sources
+    C compiler: gcc -pthread -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -fPIC
+    
+    creating build/temp.linux-x86_64-3.7/sklearn/__check_build
+    compile options: '-I/home/travis/virtualenv/python3.7.1/lib/python3.7/site-packages/numpy/core/include -I/home/travis/virtualenv/python3.7.1/lib/python3.7/site-packages/numpy/core/include -I/opt/python/3.7.1/include/python3.7m -c'
+    gcc: sklearn/__check_build/_check_build.c
+    gcc -pthread -shared -L/opt/python/3.7.1/lib -Wl,-rpath=/opt/python/3.7.1/lib -L/opt/python/3.7.1/lib -Wl,-rpath=/opt/python/3.7.1/lib build/temp.linux-x86_64-3.7/sklearn/__check_build/_check_build.o -L/opt/python/3.7.1/lib -Lbuild/temp.linux-x86_64-3.7 -lpython3.7m -o build/lib.linux-x86_64-3.7/sklearn/__check_build/_check_build.cpython-37m-x86_64-linux-gnu.so
+    building 'sklearn.cluster._dbscan_inner' extension
+    compiling C++ sources
+    C compiler: g++ -pthread -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -fPIC
+    
+    creating build/temp.linux-x86_64-3.7/sklearn/cluster
+    compile options: '-I/home/travis/virtualenv/python3.7.1/lib/python3.7/site-packages/numpy/core/include -I/home/travis/virtualenv/python3.7.1/lib/python3.7/site-packages/numpy/core/include -I/opt/python/3.7.1/include/python3.7m -c'
+    g++: sklearn/cluster/_dbscan_inner.cpp
+    In file included from /home/travis/virtualenv/python3.7.1/lib/python3.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1821:0,
+                     from /home/travis/virtualenv/python3.7.1/lib/python3.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                     from /home/travis/virtualenv/python3.7.1/lib/python3.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from sklearn/cluster/_dbscan_inner.cpp:470:
+    /home/travis/virtualenv/python3.7.1/lib/python3.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+     #warning "Using deprecated NumPy API, disable it by " \
+      ^
+    sklearn/cluster/_dbscan_inner.cpp: In function ‘void __Pyx__ExceptionSave(PyThreadState*, PyObject**, PyObject**, PyObject**)’:
+    sklearn/cluster/_dbscan_inner.cpp:5899:21: error: ‘PyThreadState {aka struct _ts}’ has no member named ‘exc_type’
+         *type = tstate->exc_type;
+                         ^
+    sklearn/cluster/_dbscan_inner.cpp:5900:22: error: ‘PyThreadState {aka struct _ts}’ has no member named ‘exc_value’
+         *value = tstate->exc_value;
+                          ^
+    sklearn/cluster/_dbscan_inner.cpp:5901:19: error: ‘PyThreadState {aka struct _ts}’ has no member named ‘exc_traceback’
+         *tb = tstate->exc_traceback;
+                       ^
+    sklearn/cluster/_dbscan_inner.cpp: In function ‘void __Pyx__ExceptionReset(PyThreadState*, PyObject*, PyObject*, PyObject*)’:
+    sklearn/cluster/_dbscan_inner.cpp:5908:24: error: ‘PyThreadState {aka struct _ts}’ has no member named ‘exc_type’
+         tmp_type = tstate->exc_type;
+                            ^
+    sklearn/cluster/_dbscan_inner.cpp:5909:25: error: ‘PyThreadState {aka struct _ts}’ has no member named ‘exc_value’
+         tmp_value = tstate->exc_value;
+                             ^
+    sklearn/cluster/_dbscan_inner.cpp:5910:22: error: ‘PyThreadState {aka struct _ts}’ has no member named ‘exc_traceback’
+         tmp_tb = tstate->exc_traceback;
+                          ^
+    sklearn/cluster/_dbscan_inner.cpp:5911:13: error: ‘PyThreadState {aka struct _ts}’ has no member named ‘exc_type’
+         tstate->exc_type = type;
+                 ^
+    sklearn/cluster/_dbscan_inner.cpp:5912:13: error: ‘PyThreadState {aka struct _ts}’ has no member named ‘exc_value’
+         tstate->exc_value = value;
+                 ^
+    sklearn/cluster/_dbscan_inner.cpp:5913:13: error: ‘PyThreadState {aka struct _ts}’ has no member named ‘exc_traceback’
+         tstate->exc_traceback = tb;
+                 ^
+    sklearn/cluster/_dbscan_inner.cpp: In function ‘int __Pyx__GetException(PyThreadState*, PyObject**, PyObject**, PyObject**)’:
+    sklearn/cluster/_dbscan_inner.cpp:5968:24: error: ‘PyThreadState {aka struct _ts}’ has no member named ‘exc_type’
+         tmp_type = tstate->exc_type;
+                            ^
+    sklearn/cluster/_dbscan_inner.cpp:5969:25: error: ‘PyThreadState {aka struct _ts}’ has no member named ‘exc_value’
+         tmp_value = tstate->exc_value;
+                             ^
+    sklearn/cluster/_dbscan_inner.cpp:5970:22: error: ‘PyThreadState {aka struct _ts}’ has no member named ‘exc_traceback’
+         tmp_tb = tstate->exc_traceback;
+                          ^
+    sklearn/cluster/_dbscan_inner.cpp:5971:13: error: ‘PyThreadState {aka struct _ts}’ has no member named ‘exc_type’
+         tstate->exc_type = local_type;
+                 ^
+    sklearn/cluster/_dbscan_inner.cpp:5972:13: error: ‘PyThreadState {aka struct _ts}’ has no member named ‘exc_value’
+         tstate->exc_value = local_value;
+                 ^
+    sklearn/cluster/_dbscan_inner.cpp:5973:13: error: ‘PyThreadState {aka struct _ts}’ has no member named ‘exc_traceback’
+         tstate->exc_traceback = local_tb;
+                 ^
+    In file included from /home/travis/virtualenv/python3.7.1/lib/python3.7/site-packages/numpy/core/include/numpy/ndarraytypes.h:1821:0,
+                     from /home/travis/virtualenv/python3.7.1/lib/python3.7/site-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                     from /home/travis/virtualenv/python3.7.1/lib/python3.7/site-packages/numpy/core/include/numpy/arrayobject.h:4,
+                     from sklearn/cluster/_dbscan_inner.cpp:470:
+    /home/travis/virtualenv/python3.7.1/lib/python3.7/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+     #warning "Using deprecated NumPy API, disable it by " \
+      ^
+    sklearn/cluster/_dbscan_inner.cpp: In function ‘void __Pyx__ExceptionSave(PyThreadState*, PyObject**, PyObject**, PyObject**)’:
+    sklearn/cluster/_dbscan_inner.cpp:5899:21: error: ‘PyThreadState {aka struct _ts}’ has no member named ‘exc_type’
+         *type = tstate->exc_type;
+                         ^
+    sklearn/cluster/_dbscan_inner.cpp:5900:22: error: ‘PyThreadState {aka struct _ts}’ has no member named ‘exc_value’
+         *value = tstate->exc_value;
+                          ^
+    sklearn/cluster/_dbscan_inner.cpp:5901:19: error: ‘PyThreadState {aka struct _ts}’ has no member named ‘exc_traceback’
+         *tb = tstate->exc_traceback;
+                       ^
+    sklearn/cluster/_dbscan_inner.cpp: In function ‘void __Pyx__ExceptionReset(PyThreadState*, PyObject*, PyObject*, PyObject*)’:
+    sklearn/cluster/_dbscan_inner.cpp:5908:24: error: ‘PyThreadState {aka struct _ts}’ has no member named ‘exc_type’
+         tmp_type = tstate->exc_type;
+                            ^
+    sklearn/cluster/_dbscan_inner.cpp:5909:25: error: ‘PyThreadState {aka struct _ts}’ has no member named ‘exc_value’
+         tmp_value = tstate->exc_value;
+                             ^
+    sklearn/cluster/_dbscan_inner.cpp:5910:22: error: ‘PyThreadState {aka struct _ts}’ has no member named ‘exc_traceback’
+         tmp_tb = tstate->exc_traceback;
+                          ^
+    sklearn/cluster/_dbscan_inner.cpp:5911:13: error: ‘PyThreadState {aka struct _ts}’ has no member named ‘exc_type’
+         tstate->exc_type = type;
+                 ^
+    sklearn/cluster/_dbscan_inner.cpp:5912:13: error: ‘PyThreadState {aka struct _ts}’ has no member named ‘exc_value’
+         tstate->exc_value = value;
+                 ^
+    sklearn/cluster/_dbscan_inner.cpp:5913:13: error: ‘PyThreadState {aka struct _ts}’ has no member named ‘exc_traceback’
+         tstate->exc_traceback = tb;
+                 ^
+    sklearn/cluster/_dbscan_inner.cpp: In function ‘int __Pyx__GetException(PyThreadState*, PyObject**, PyObject**, PyObject**)’:
+    sklearn/cluster/_dbscan_inner.cpp:5968:24: error: ‘PyThreadState {aka struct _ts}’ has no member named ‘exc_type’
+         tmp_type = tstate->exc_type;
+                            ^
+    sklearn/cluster/_dbscan_inner.cpp:5969:25: error: ‘PyThreadState {aka struct _ts}’ has no member named ‘exc_value’
+         tmp_value = tstate->exc_value;
+                             ^
+    sklearn/cluster/_dbscan_inner.cpp:5970:22: error: ‘PyThreadState {aka struct _ts}’ has no member named ‘exc_traceback’
+         tmp_tb = tstate->exc_traceback;
+                          ^
+    sklearn/cluster/_dbscan_inner.cpp:5971:13: error: ‘PyThreadState {aka struct _ts}’ has no member named ‘exc_type’
+         tstate->exc_type = local_type;
+                 ^
+    sklearn/cluster/_dbscan_inner.cpp:5972:13: error: ‘PyThreadState {aka struct _ts}’ has no member named ‘exc_value’
+         tstate->exc_value = local_value;
+                 ^
+    sklearn/cluster/_dbscan_inner.cpp:5973:13: error: ‘PyThreadState {aka struct _ts}’ has no member named ‘exc_traceback’
+         tstate->exc_traceback = local_tb;
+                 ^
+    error: Command "g++ -pthread -Wno-unused-result -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -g -fstack-protector --param=ssp-buffer-size=4 -Wformat -Werror=format-security -fPIC -I/home/travis/virtualenv/python3.7.1/lib/python3.7/site-packages/numpy/core/include -I/home/travis/virtualenv/python3.7.1/lib/python3.7/site-packages/numpy/core/include -I/opt/python/3.7.1/include/python3.7m -c sklearn/cluster/_dbscan_inner.cpp -o build/temp.linux-x86_64-3.7/sklearn/cluster/_dbscan_inner.o -MMD -MF build/temp.linux-x86_64-3.7/sklearn/cluster/_dbscan_inner.o.d" failed with exit status 1
+    
+    ----------------------------------------
+[31mCommand "/home/travis/virtualenv/python3.7.1/bin/python -u -c "import setuptools, tokenize;__file__='/tmp/pip-install-xbtvycj5/scikit-learn/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-record-okgxb0pu/install-record.txt --single-version-externally-managed --compile --install-headers /home/travis/virtualenv/python3.7.1/include/site/python3.7/scikit-learn" failed with error code 1 in /tmp/pip-install-xbtvycj5/scikit-learn/[0m
+[?25hNo broken requirements found.
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.7.1, pytest-4.3.1, py-1.7.0, pluggy-0.8.0
+rootdir: /home/travis/build/Ibotta/sk-dist, inifile:
+[1mcollecting ... [0m[1mcollecting 27 items / 2 errors / 25 selected                                   [0m[1mcollected 46 items / 3 errors / 43 selected                                    [0m
+
+==================================== ERRORS ====================================
+[31m[1m__________ ERROR collecting skdist/distribute/tests/test_eliminate.py __________[0m
+[31mImportError while importing test module '/home/travis/build/Ibotta/sk-dist/skdist/distribute/tests/test_eliminate.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+skdist/distribute/tests/test_eliminate.py:8: in <module>
+    from sklearn.linear_model import LogisticRegression
+E   ModuleNotFoundError: No module named 'sklearn'[0m
+[31m[1m___________ ERROR collecting skdist/distribute/tests/test_search.py ____________[0m
+[31mImportError while importing test module '/home/travis/build/Ibotta/sk-dist/skdist/distribute/tests/test_search.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+skdist/distribute/tests/test_search.py:16: in <module>
+    from sklearn.linear_model import LogisticRegression
+E   ModuleNotFoundError: No module named 'sklearn'[0m
+[31m[1m_________________ ERROR collecting skdist/tests/test_spark.py __________________[0m
+[31mImportError while importing test module '/home/travis/build/Ibotta/sk-dist/skdist/tests/test_spark.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+skdist/tests/test_spark.py:16: in <module>
+    from sklearn.datasets import (
+E   ModuleNotFoundError: No module named 'sklearn'[0m
+!!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!!
+[31m[1m=========================== 3 error in 0.85 seconds ============================[0m
+travis_time:end:16fa0e60:start=1579028986079931423,finish=1579029040455102557,duration=54375171134,event=script[0K[31;1mThe command "build_tools/$TEST_SUITE.sh" exited with 2.[0m
+
+
+Done. Your build exited with 1.
